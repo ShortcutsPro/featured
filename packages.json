@@ -1,22 +1,5 @@
 [
   {
-    "author" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://ShortcutsPro.com"
-    },
-    "arch" : "universal",
-    "id" : "io.bustl.cutz.featured",
-    "catagory" : [
-      "utilites"
-    ],
-    "link" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
-    "version" : "1.0",
-    "description" : "Featuring the most requested shortcuts for your business needs.",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
-    "name" : "Bustl.Cutz Featured",
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
-  },
-  {
     "file_size" : "25 KB",
     "color" : "#8757C2",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
