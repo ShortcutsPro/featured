@@ -1,5 +1,5 @@
-## ![](https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.png) [Papercuts Repo](https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.html)
+## ![](https://cutz.bustl.io/featured/depiction/featured.png) [Bustl.Cutz Featured](https://cutz.bustl.io/featured/depiction/featured.html)
 
 ----
 
-### A Template Repository
+### Featuring the most requested shortcuts for your business needs.

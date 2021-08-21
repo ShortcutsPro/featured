@@ -1,7 +1,7 @@
 {
-  "name": "Papercuts Repo",
+  "name": "Bustl.Cutz Featured",
   "version": "1.0",
-  "description": "A Template Repository",
-  "icon": "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.png",
-  "id":"io.bustl.cuts.papercuts-repo"
+  "description": "Featuring the most requested shortcuts for your business needs.",
+  "icon": "https://cutz.bustl.io/featured/depiction/featured.png",
+  "id":"io.bustl.cuts.featured"
 }

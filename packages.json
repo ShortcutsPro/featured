@@ -5,15 +5,15 @@
       "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "id" : "io.bustl.cuts.papercuts-repo",
+    "id" : "io.bustl.cuts.featured",
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.html",
+    "link" : "https://cutz.bustl.io/featured/depiction/featured.html",
     "version" : "1.0",
-    "description" : "A Template Repository",
-    "depiction" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.html",
-    "name" : "Papercuts Repo",
-    "icon" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.png"
+    "description" : "Featuring the most requested shortcuts for your business needs.",
+    "depiction" : "https://cutz.bustl.io/featured/depiction/featured.html",
+    "name" : "Bustl.Cuts Featured",
+    "icon" : "https://cutz.bustl.io/featured/depiction/featured.png"
   }
 ]
