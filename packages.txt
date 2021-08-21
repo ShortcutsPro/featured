@@ -5,28 +5,28 @@
       "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "id" : "io.bustl.cuts.featured",
+    "id" : "io.bustl.cutz.featured",
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://cutz.bustl.io/featured/depiction/featured.html",
+    "link" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
     "version" : "1.0",
     "description" : "Featuring the most requested shortcuts for your business needs.",
-    "depiction" : "https://cutz.bustl.io/featured/depiction/featured.html",
-    "name" : "Bustl.Cuts Featured",
-    "icon" : "https://cutz.bustl.io/featured/depiction/featured.png"
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
+    "name" : "Bustl.Cutz Featured",
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
   },
   {
     "file_size" : "25 KB",
     "color" : "#8757C2",
-    "source" : "https://ShortcutsPro.GitHub.io/featured/shortcuts/device-checkup/device-checkup.html",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
     "shortcuts_version" : "1134",
-    "depiction" : "https://ShortcutsPro.GitHub.io/featured/depiction/device-checkup.html",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.html",
     "link" : "https://www.icloud.com/shortcuts/75624970de6e409092c52c05389634bc",
     "release" : "Sat, 21 Aug 2021 05:19:12 -0500",
-    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
+    "description" : "Device Checkup\nDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
     "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/featured/depiction/device-checkup.png",
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.png",
     "start_color" : 2071128575,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Sat, 21 Aug 2021 05:18:04 -0500",
