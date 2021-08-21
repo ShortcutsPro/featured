@@ -1,0 +1,19 @@
+[
+  {
+    "author" : {
+      "name" : "@ShortcutsPro",
+      "link" : "https://ShortcutsPro.com"
+    },
+    "arch" : "universal",
+    "id" : "io.bustl.cuts.papercuts-repo",
+    "catagory" : [
+      "utilites"
+    ],
+    "link" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.html",
+    "version" : "1.0",
+    "description" : "A Template Repository",
+    "depiction" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.html",
+    "name" : "Papercuts Repo",
+    "icon" : "https://cutz.bustl.io/papercuts-repo/depiction/papercuts-repo.png"
+  }
+]
