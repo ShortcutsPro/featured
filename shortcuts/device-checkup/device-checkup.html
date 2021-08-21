@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Device Checkup</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Device Checkup</button>
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1134",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 2071128575,
+   "WFWorkflowIconGlyphNumber": 59697
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFAppStoreAppContentItem",
+   "WFArticleContentItem",
+   "WFContactContentItem",
+   "WFDateContentItem",
+   "WFEmailAddressContentItem",
+   "WFGenericFileContentItem",
+   "WFImageContentItem",
+   "WFiTunesProductContentItem",
+   "WFLocationContentItem",
+   "WFDCMapsLinkContentItem",
+   "WFAVAssetContentItem",
+   "WFPDFContentItem",
+   "WFPhoneNumberContentItem",
+   "WFRichTextContentItem",
+   "WFSafariWebPageContentItem",
+   "WFStringContentItem",
+   "WFURLContentItem"
+],
+"WFWorkflowMinimumClientVersion": 900,
+"WFWorkflowMinimumClientVersionString": "900",
+"WFWorkflowOutputContentItemClasses": [
+   "WFDateContentItem",
+   "WFBooleanContentItem",
+   "WFStringContentItem",
+   "WFNumberContentItem",
+   "WFDictionaryContentItem"
+],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Device Checkup
+Description: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. 
+category: device, utility
+---
+{"name":"Device Checkup","auuid":"D8782143-1590-4DA2-A1FE-6AEAC866664C","version":"1"}</div></div>
+<button class="button gDocuments" id="m1">
+1 Text</button>
+	<div class="content">
+		<div class="col2">{"™️":{"™️":"Bustl","site":"https:\/\/Bustl.io","company":"Simpl System LLC","©️":"All rights reserved"},"shortcut":{"description":"Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ","category":"device, utility","id":"com.github.shortcutpros.library.Integrity","version":1,"integrity":true,"author":{"name":"alex,scott","link":"https:\/\/bustl.io\/shortcuts","agency":"@itsbustl"},"depends":[],"link":"https:\/\/bustl.io\/shortcuts\/Device Checkup","license":"Integrity Framework Copyright © 2021 Scott Wright  MIT License","application":"𝘽𝙪𝙨𝙩𝙡.","quiet":true,"urls":{"home":"https:\/\/bustl.io","news":"https:\/\/bustl.io\/news","info":"https:\/\/bustl.io\/shortcuts\/DeviceCheckup "},"files":{"results":"DeviceCheckup.txt","folder":"DeviceCheckup","path":"\/DeviceCheckup\/"},"date":"Aug 6, 2021 at 6:51 AM","error":{"499":"user shut off request in the middle of processing ","401":"Unauthorized request please make sure credentials are correct or contact ™️ Bustl.io","404":"no value was found","504":"Timeout - please try again in 1 minute.  If the error continues contact ™️ Bustl.io","403":"Forbidden request. You do not have access please contact ™️ Bustl.io","500":"Cannot be processed for unknown reasons ","503":"Your device isn't connected to interne","7474":"Your plan does not cover this support - 
+<b><i>(7 kbytes; content truncated)</i></b></div></div>
+<button class="gVariable" id="m2">
+2 Set Variable <span class="box">Dictionary</span> to <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m3">
+3 Text</button>
+	<div class="content">
+		<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m4">
+4 If <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Text</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m5">
+5 Stop and Output <span class="box"><span class="var"><b>[Dictionary</b> as Dictionary.shortcut<b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m6">
+6 End If</button>
+<button class="" id="m7">
+7 Get Current Weather</button>
+<button class="" id="m8">
+8 Get Details <span class="box">Latitude</span> of Locations <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b><b>]</b></span></span></button>
+<button class="" id="m9">
+9 Get Details <span class="box">Longitude</span> of Locations <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b><b>]</b></span></span></button>
+<button class="" id="m10">
+10 Get Maps URL from <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b>’s Location<b>]</b></span></span></button>
+<button class="" id="m11">
+11 Get Device Details <span class="box">Device Name</span></button>
+<button class="button gUnknown" id="m12">
+12 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2"><span class="magic" onclick="magictap(9)"><b>[9 Longitude</b><b>]</b></span></div></div></div>
+<button class="button gUnknown" id="m13">
+13 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">operatingSystemVersion</div></div></div>
+<button class="button gUnknown" id="m14">
+14 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">screenRatio</div></div></div>
+<button class="" id="m15">
+15 Get Device Details <span class="box">Current Appearance</span> <b>&nbsp; ➔ Current Appearance</b></button>
+<button class="button gUnknown" id="m16">
+16 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">uptime</div></div></div>
+<button class="button gUnknown" id="m17">
+17 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">thermalState</div></div></div>
+<button class="button gUnknown" id="m18">
+18 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">availableProcessors</div></div></div>
+<button class="button gUnknown" id="m19">
+19 com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">deviceDetails</div>
+			<div class="col2">ram</div></div></div>
+<button class="button gDocuments" id="m20">
+20 Text</button>
+	<div class="content">
+		<div class="col2"># <span class="magic" onclick="magictap(11)"><b>[11 Device Name</b><b>]</b></span>
+
+## in <span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b>’s Location<b>]</b></span> it is <span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b><b>]</b></span>
+
+### <span class="magic" onclick="magictap(12)"><b>[12 Device Detail</b><b>]</b></span>
+
+Device state
+
+^ version:<span class="magic" onclick="magictap(13)"><b>[13 Device Detail</b><b>]</b></span>
+
+^^ screen:<span class="magic" onclick="magictap(14)"><b>[14 Device Detail</b><b>]</b></span>
+* Appearance:<span class="magic" onclick="magictap(15)"><b>[15 Current Appearance</b><b>]</b></span>
+* memory:<span class="magic" onclick="magictap(19)"><b>[19 Device Detail</b><b>]</b></span>
+- thermal:<span class="magic" onclick="magictap(17)"><b>[17 Device Detail</b><b>]</b></span>
+
+--- 
+
+&lt;button1>[Copy Weather](<span class="magic" onclick="magictap(7)"><b>[7 Weather Conditions</b><b>]</b></span>)|&lt;button2>[Bustl](https://bustl.io)|&lt;button3>[Copy Location](<span class="magic" onclick="magictap(10)"><b>[10 Maps URL</b><b>]</b></span>)
+
+Interactive map of your location:
+
+&lt;map>[<span class="magic" onclick="magictap(8)"><b>[8 Latitude</b><b>]</b></span>,<span class="magic" onclick="magictap(9)"><b>[9 Longitude</b><b>]</b></span>](You are here!)
+
+---
+
+Hit a button or done when you're finished reviewing info.</div></div>
+<button class="gVariable" id="m21">
+21 Add <span class="box"><span class="magic" onclick="magictap(20)"><b>[20 Text</b><b>]</b></span></span> to Variable <span class="box">preview</span></button>
+<button class="button gDocuments" id="m22">
+22 Text</button>
+	<div class="content">
+		<div class="col2">below are your 5 recent images.</div></div>
+<button class="gVariable" id="m23">
+23 Add <span class="box"><span class="magic" onclick="magictap(22)"><b>[22 Text</b><b>]</b></span></span> to Variable <span class="box">preview</span></button>
+<button class="button " id="m24">
+24 Find Photos <span class="box"><span class="var"><b>[preview</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ContentItemSortProperty</div>
+			<div class="col2">Date Taken</div></div>
+		<div class="row"><div class="col1">ContentItemSortOrder</div>
+			<div class="col2">Latest First</div></div>
+		<div class="row"><div class="col1">ContentItemLimitNumber</div>
+			<div class="col2">5</div></div>
+		<div class="row"><div class="col1">ContentItemLimitEnabled</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">ContentItemFilter</div>
+			<div class="col2">• All the following are true
+Album is Recents
+Is Not a Screenshot
+Media Type is Image</div></div></div>
+<button class="button gLoop nonbottom" id="m25">
+25 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(24)"><b>[24 Photos</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class=" inside" id="m26">
+26 Get Details <span class="box">Metadata Dictionary</span> of Images <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+<button class="button gDocuments inside" id="m27">
+27 Text</button>
+	<div class="content inside">
+		<div class="col2"><span class="magic" onclick="magictap(26)"><b>[26 Metadata Dictionary</b>.{GPS}<b>]</b></span></div></div>
+<button class="button gLoop nonbottom inside" id="m28">
+28 If <span class="box"><span class="magic" onclick="magictap(27)"><b>[27 Text</b><b>]</b></span></span> <span class="box">contains</span> <span class="box">Latitude</span></button>
+	<div class="content contentloop dashed inside">
+<button class=" inside" id="m29">
+29 Get Details <span class="box">Longitude</span> of Locations <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+<button class=" inside" id="m30">
+30 Get Details <span class="box">Latitude</span> of Locations <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+<button class=" inside" id="m31">
+31 Get Details <span class="box">City</span> of Locations <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button></div>
+<button class="gLoop nonbottom nontop inside" id="m32">
+32 Otherwise</button>
+	
+<button class="gLoop nontop inside" id="m33">
+33 End If</button>
+<button class="gVariable inside" id="m34">
+34 Add <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> to Variable <span class="box">preview</span></button>
+<button class="button gDocuments inside" id="m35">
+35 Text</button>
+	<div class="content inside">
+		<div class="col2">^^ <span class="var"><b>[Repeat Item</b><b>]</b></span> (<span class="var"><b>[Repeat Item</b>’s File Extension<b>]</b></span>)
+^^ <span class="var"><b>[Repeat Item</b>’s Width<b>]</b></span> x <span class="var"><b>[Repeat Item</b>’s Height<b>]</b></span>
+^^ <span class="var"><b>[Repeat Item</b>’s Camera Make<b>]</b></span> (<span class="var"><b>[Repeat Item</b>’s Camera Model<b>]</b></span>)
+
+&lt;map>[<span class="magic" onclick="magictap(30)"><b>[30 Latitude</b><b>]</b></span>,<span class="magic" onclick="magictap(29)"><b>[29 Longitude</b><b>]</b></span>](<span class="magic" onclick="magictap(31)"><b>[31 Street</b><b>]</b></span>)
+
+---</div></div>
+<button class="gVariable inside" id="m36">
+36 Add <span class="box"><span class="magic" onclick="magictap(35)"><b>[35 Text</b><b>]</b></span></span> to Variable <span class="box">preview</span></button></div>
+<button class="gLoop nontop" id="m37">
+37 End Repeat with Each <span class="magic" onclick="magictap(25)">25</span></button>
+<button class="button gUnknown" id="m38">
+38 com.alexhay.ToolboxProForShortcuts.QuickLookExtendedIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">body</div>
+			<div class="col2"><span class="var"><b>[preview</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">buttonRadius</div>
+			<div class="col2">6</div></div>
+		<div class="row"><div class="col1">mapSize</div>
+			<div class="col2">Medium</div></div>
+		<div class="row"><div class="col1">theme</div>
+			<div class="col2">Swiss</div></div>
+		<div class="row"><div class="col1">textAlignment</div>
+			<div class="col2">Left</div></div>
+		<div class="row"><div class="col1">imageMask</div>
+			<div class="col2">rounded</div></div>
+		<div class="row"><div class="col1">mapZoom</div>
+			<div class="col2">.05</div></div>
+		<div class="row"><div class="col1">openURL</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">mapPinName</div>
+			<div class="col2"></div></div>
+		<div class="row"><div class="col1">title</div>
+			<div class="col2">Device Checkup</div></div>
+		<div class="row"><div class="col1">imageRadius</div>
+			<div class="col2">15</div></div>
+		<div class="row"><div class="col1">buttonStyle</div>
+			<div class="col2">filledRounded</div></div>
+		<div class="row"><div class="col1">postURL</div>
+			<div class="col2">https://support.apple.com</div></div>
+		<div class="row"><div class="col1">imageSize</div>
+			<div class="col2">medium</div></div>
+		<div class="row"><div class="col1">mapPin</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">mapInteractivity</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">imageAlignment</div>
+			<div class="col2">Central</div></div>
+		<div class="row"><div class="col1">imageShadows</div>
+			<div class="col2">true</div></div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
