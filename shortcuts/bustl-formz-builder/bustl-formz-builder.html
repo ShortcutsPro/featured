@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Bustl Formz Builder</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Bustl Formz Builder</button>
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1129",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 3980825855,
+   "WFWorkflowIconGlyphNumber": 59726
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFStringContentItem"
+],
+"WFWorkflowMinimumClientVersion": 900,
+"WFWorkflowMinimumClientVersionString": "900",
+"WFWorkflowOutputContentItemClasses": [
+   "WFStringContentItem",
+   "WFGenericFileContentItem"
+],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Bustl Formz Builder
+
+Creates custom forms to open from a shortcut and input data into a shortcut.  
+———
+{"name":"Bustl Formz Builder","auuid":"8B0300E1-56E0-4F1E-B8D0-D00F7AB51598","version":"1.0"}</div></div>
+<button class="button gDocuments" id="m1">
+1 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+Below is an example of how to receive inout from a Bustl. form into a shortcut.  Run this shortcut using the default settings to see how it works.  </div></div>
+<button class="gScripting" id="m2">
+2 URL <span class="box">Decode</span> <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
+<button class="gScripting" id="m3">
+3 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(2)"><b>[2 URL Encoded Text</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m4">
+4 If <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Dictionary</b><b>]</b></span></span> <span class="box">has any value</span></button>
+	<div class="content contentloop">
+<button class="button gUnknown inside" id="m5">
+5 dk.simonbs.Scriptable.RunScriptInlineIntent</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">script</div>
+			<div class="col2">return JSON.stringify(args.shortcutParameter, null, "\t")</div></div>
+		<div class="row"><div class="col1">Show-texts</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">Show-urls</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">parameter</div>
+			<div class="col2"><span class="magic" onclick="magictap(3)"><b>[3 Dictionary</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">runInApp</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">ShowWhenRun</div>
+			<div class="col2">false</div></div></div>
+<button class="button gDocuments inside" id="m6">
+6 Show Result</button>
+	<div class="content inside">
+		<div class="col2"><span class="magic" onclick="magictap(5)"><b>[5 Output</b><b>]</b></span></div></div>
+<button class="button gScripting inside" id="m7">
+7 Stop and Output <span class="box"><span class="magic" onclick="magictap(5)"><b>[5 Output</b><b>]</b></span></span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">NoOutputSurfaceBehavior</div>
+			<div class="col2">Do Nothing</div></div>
+		<div class="row"><div class="col1">Response</div>
+			<div class="col2"><span class="var"><b>[Pretty Printed Dictionary</b><b>]</b></span></div></div></div></div>
+<button class="gLoop nontop" id="m8">
+8 End If</button>
+<button class="button gDocuments" id="m9">
+9 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gScripting" id="m10">
+10 Ask for Text Input</button>
+	<div class="content">
+		<div class="row"><div class="col1">AskActionPrompt</div>
+			<div class="col2">Title for your form:</div></div></div>
+<button class="button gLoop nonbottom" id="m11">
+11 If <span class="box"><span class="magic" onclick="magictap(10)"><b>[10 Provided Input</b><b>]</b></span></span> <span class="box">has any value</span></button>
+	<div class="content contentloop">
+<button class="gVariable inside" id="m12">
+12 Get Variable <span class="box"><span class="magic" onclick="magictap(10)"><b>[10 Provided Input</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop" id="m13">
+13 Otherwise</button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m14">
+14 Text</button>
+	<div class="content inside">
+		<div class="col2">Bustl. &lt;em>formz&lt;/em></div></div></div>
+<button class="gLoop nontop" id="m15">
+15 End If</button>
+<button class="gVariable" id="m16">
+16 Set Variable <span class="box">Form Title</span> to <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 If Result</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m17">
+17 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">👇👇.  name of shortcut the form will run on submit. </div></div>
+<button class="button gDocuments" id="m18">
+18 Text</button>
+	<div class="content">
+		<div class="col2">Bustl Formz Builder</div></div>
+<button class="button gScripting" id="m19">
+19 Ask for Text Input</button>
+	<div class="content">
+		<div class="row"><div class="col1">AskActionDefaultAnswer</div>
+			<div class="col2"><span class="magic" onclick="magictap(18)"><b>[18 Text</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">AskActionPrompt</div>
+			<div class="col2">Exact Name of Shortcut to Run on Form Submit:</div></div></div>
+<button class="gVariable" id="m20">
+20 Set Variable <span class="box">OnClick</span> to <span class="box"><span class="magic" onclick="magictap(19)"><b>[19 Provided Input</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m21">
+21 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gScripting" id="m22">
+22 List</button>
+	<div class="content">
+		<div class="col2">["is-primary",
+"is-warning",
+"is-danger",
+"is-success",
+"is-link",
+"is-info",
+"is-dark",
+"is-light"]</div></div>
+<button class="button gDocuments" id="m23">
+23 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gDocuments" id="m24">
+24 Text</button>
+	<div class="content">
+		<div class="col2">Name
+Email
+Phone
+Business
+Website</div></div>
+<button class="button gScripting" id="m25">
+25 Ask for Text Input</button>
+	<div class="content">
+		<div class="row"><div class="col1">AskActionDefaultAnswer</div>
+			<div class="col2"><span class="magic" onclick="magictap(24)"><b>[24 Text</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">AskActionPrompt</div>
+			<div class="col2">Enter a list of form items, one per line </div></div></div>
+<button class="button gDocuments" id="m26">
+26 Split Text <span class="box"><span class="magic" onclick="magictap(25)"><b>[25 Provided Input</b><b>]</b></span></span> by New Lines</button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="button gLoop nonbottom" id="m27">
+27 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(26)"><b>[26 Split Text</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m28">
+28 Change <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> to <span class="box">lowercase</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="gScripting inside" id="m29">
+29 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(22)"><b>[22 List</b><b>]</b></span></span></button>
+<button class="button gDocuments inside" id="m30">
+30 Text</button>
+	<div class="content inside">
+		<div class="col2">&lt;label for="<span class="magic" onclick="magictap(28)"><b>[28 Updated Text</b><b>]</b></span>" style="font-size: 1.5em;"><span class="var"><b>[Repeat Item</b><b>]</b></span>&lt;/label>&lt;input class="input <span class="magic" onclick="magictap(29)"><b>[29 Item from List</b><b>]</b></span> is-normal" type="text" id="<span class="magic" onclick="magictap(28)"><b>[28 Updated Text</b><b>]</b></span>"></div></div></div>
+<button class="gLoop nontop" id="m31">
+31 End Repeat with Each</button>
+<button class="button gDocuments" id="m32">
+32 Combine Text <span class="box"><span class="magic" onclick="magictap(31)"><b>[31 Repeat Results</b><b>]</b></span></span> with <span class="box">Custom</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="gVariable" id="m33">
+33 Set Variable <span class="box">Form Elements</span> to <span class="box"><span class="magic" onclick="magictap(32)"><b>[32 Combined Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m34">
+34 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gLoop nonbottom" id="m35">
+35 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(26)"><b>[26 Split Text</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m36">
+36 Change <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> to <span class="box">lowercase</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="button gDocuments inside" id="m37">
+37 Text</button>
+	<div class="content inside">
+		<div class="col2"><span class="magic" onclick="magictap(36)"><b>[36 Updated Text</b><b>]</b></span>:document.getElementById('<span class="magic" onclick="magictap(36)"><b>[36 Updated Text</b><b>]</b></span>'),</div></div></div>
+<button class="gLoop nontop" id="m38">
+38 End Repeat with Each</button>
+<button class="button gDocuments" id="m39">
+39 Combine Text <span class="box"><span class="magic" onclick="magictap(38)"><b>[38 Repeat Results</b><b>]</b></span></span> with <span class="box">Custom</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="gVariable" id="m40">
+40 Set Variable <span class="box">Const form</span> to <span class="box"><span class="magic" onclick="magictap(39)"><b>[39 Combined Text</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m41">
+41 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(26)"><b>[26 Split Text</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m42">
+42 Change <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> to <span class="box">lowercase</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div></div>
+<button class="button gDocuments inside" id="m43">
+43 Text</button>
+	<div class="content inside">
+		<div class="col2">\"<span class="magic" onclick="magictap(42)"><b>[42 Updated Text</b><b>]</b></span>\":\"${form.<span class="magic" onclick="magictap(42)"><b>[42 Updated Text</b><b>]</b></span>.value}\"</div></div></div>
+<button class="gLoop nontop" id="m44">
+44 End Repeat with Each</button>
+<button class="button gDocuments" id="m45">
+45 Combine Text <span class="box"><span class="magic" onclick="magictap(44)"><b>[44 Repeat Results</b><b>]</b></span></span> with <span class="box">Custom</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">TextCustomSeparator</div>
+			<div class="col2">,</div></div></div>
+<button class="button gDocuments" id="m46">
+46 Text</button>
+	<div class="content">
+		<div class="col2">{<span class="magic" onclick="magictap(45)"><b>[45 Combined Text</b><b>]</b></span>}</div></div>
+<button class="gVariable" id="m47">
+47 Set Variable <span class="box">Input</span> to <span class="box"><span class="magic" onclick="magictap(46)"><b>[46 Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m48">
+48 Text</button>
+	<div class="content">
+		<div class="col2">&lt;!-- Bustl.formz Builder -->
+&lt;!-- Bustl.®︎™︎ is a trademark of Simpl System, llc.-->
+&lt;!-- INTEGRITY | MIT • github.com/scottdwr -->
+&lt;!-- bulma.io v0.9.2 | MIT • github.com/jgthms/bulma --> </div></div>
+<button class="button gDocuments" id="m49">
+49 Text <b>&nbsp; ➔ Head</b></button>
+	<div class="content">
+		<div class="col2"><span class="magic" onclick="magictap(48)"><b>[48 Text</b><b>]</b></span>
+&lt;!DOCTYPE html>&lt;html lang="en" dir="auto">&lt;head>&lt;meta charset="UTF-8"> &lt;meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=no">&lt;meta name="apple-mobile-web-app-capable" content="yes">&lt;meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">&lt;title><span class="var"><b>[Form Title</b><b>]</b></span>&lt;/title>&lt;style>@charset "utf-8"; html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif; } body { margin: 0; padding: 1em; background-color: white; font-family: system-ui; color: black; }@media (prefers-color-scheme: dark;) { body{ background-color: black; color: white; }}  /* Dark Mode */ @media (max-device-width: 480px;) { }
+ @media (min-device-width: 481px;) { body { margin: auto; max-width: 600px; }}img { max-width: 90%; }&lt;/style> &lt;/head></div></div>
+<button class="button gDocuments" id="m50">
+50 Text <b>&nbsp; ➔ Body</b></button>
+	<div class="content">
+		<div class="col2">&lt;section class="section" style="margin: 0;">&lt;center>&lt;div class="container" style="margin: 0;">&lt;h1 class="title"><span class="var"><b>[Form Title</b><b>]</b></span>&lt;/h1>&lt;/div>&lt;div class="control" style="margin: 0;"> &lt;form class="form">&lt;div class="card" style="padding: 3em; margin-left: 20px; margin-right: 20px; margin-top: 1em;"> <span class="var"><b>[Form Elements</b><b>]</b></span>&lt;/div>&lt;button class="button is-dark is-medium" style="margin-top: 3em;" type="submit" id="submit">Submit&lt;/button>&lt;/form>&lt;/div>&lt;/center>&lt;/section>&lt;script>const form = {<span class="var"><b>[Const form</b><b>]</b></span>   submit: document.getElementById('submit'),};form.submit.addEventListener('click', () => {const requestData = `{\"name\":\"<span class="var"><b>[OnClick</b><b>]</b></span>\",\"input\":<span class="var"><b>[Input</b><b>]</b></span>}`;window.open('shortcuts://run-shortcut?name=INTEGRITY&amp;input=text&amp;text='+requestData);window.close();});&lt;/script></div></div>
+<button class="button gDocuments" id="m51">
+51 Text <b>&nbsp; ➔ HTML</b></button>
+	<div class="content">
+		<div class="col2"><span class="magic" onclick="magictap(49)"><b>[49 Head</b><b>]</b></span>&lt;body> <span class="magic" onclick="magictap(50)"><b>[50 Body</b><b>]</b></span> &lt;/body>&lt;/html></div></div>
+<button class="button gScripting" id="m52">
+52 Base64 <span class="box">Encode</span> <span class="box"><span class="magic" onclick="magictap(51)"><b>[51 HTML</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Base64LineBreakMode</div>
+			<div class="col2">None</div></div></div>
+<button class="button " id="m53">
+53 URL <span class="box">data:text/html;charset=utf-8;base64,<span class="magic" onclick="magictap(52)"><b>[52 Base64 Encoded</b><b>]</b></span></span> <b>&nbsp; ➔ Bustl. Formz</b></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
+<button class="button " id="m54">
+54 Open URL <span class="box"><span class="magic" onclick="magictap(53)"><b>[53 Bustl. Formz</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFInput</div>
+			<div class="col2">true</div></div></div>
+<button class="button gScripting" id="m55">
+55 Stop and Output <span class="box"><span class="magic" onclick="magictap(51)"><b>[51 HTML</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">NoOutputSurfaceBehavior</div>
+			<div class="col2">Copy to Clipboard</div></div>
+		<div class="row"><div class="col1">Response</div>
+			<div class="col2"><span class="magic" onclick="magictap(51)"><b>[51 HTML</b><b>]</b></span></div></div></div>
+<button class="button gScripting" id="m56">
+56 Show Alert</button>
+	<div class="content">
+		<div class="row"><div class="col1">AlertActionCancelButtonShown</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">AlertActionMessage</div>
+			<div class="col2"><span class="magic" onclick="magictap(55)"><b>[55 Stop and Output</b><b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m57">
+57 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
