@@ -1,15 +1,13 @@
 [
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "25 KB",
     "color" : "#8757C2",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.html",
     "link" : "https://www.icloud.com/shortcuts/d277e484b71f4a44b19247d061490841",
     "release" : "Sat, 21 Aug 2021 11:08:24 -0500",
-    "file_size" : "25 KB",
+    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.png",
     "start_color" : 2071128575,
@@ -44,17 +42,21 @@
         "about:blank"
       ]
     },
-    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "file_size" : "14 KB",
+    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](ttps://i.imgur.com/aaC4ZZg.jpg)](ttps://i.imgur.com/aaC4ZZg.jpg)",
     "color" : "#F58BD5",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/bustl-formz-builder/bustl-formz-builder.html",
     "shortcuts_version" : "1129",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.html",
     "link" : "https://www.icloud.com/shortcuts/7f3e09df41a14e1885673bd9f355d17e",
     "release" : "Sun, 22 Aug 2021 00:33:16 -0500",
-    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](ttps://i.imgur.com/aaC4ZZg.jpg)](ttps://i.imgur.com/aaC4ZZg.jpg)",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.png",
     "start_color" : 3980825855,
@@ -84,6 +86,51 @@
     "notes" : "Initial release ",
     "certificate_expiration" : "Wed, 21 Sep 2022 00:21:14 -0500",
     "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "14 KB"
+  },
+  {
+    "file_size" : "19 KB",
+    "color" : "#00CBDF",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/linkup/linkup.html",
+    "shortcuts_version" : "1137.2",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/linkup.html",
+    "link" : "https://www.icloud.com/shortcuts/98c0fbc6e56e44d4af3f8caaa57c2976",
+    "release" : "Wed, 25 Aug 2021 06:05:50 -0700",
+    "description" : "Name:LinkUPnDescription: Save links from a website to view, refenrece or research later to your reading list & notes.  category: device, utilityn---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/linkup.png",
+    "start_color" : 1440408063,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Wed, 25 Aug 2021 06:04:48 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      ""
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "LinkUP",
+    "auuid" : "D1FBD30B-9DCA-4CEC-AA95-FE7F067ED7D2",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.linkup",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/ASo6X8xfYajh6GiLct5IUuSQOoLZ/${f}?o=Aods5BvOtQTds3O4dtLfMYlIoDZZwP2RhC_anlYqVDRfdpioVVstulU3unMbyBweyw&v=1&x=3&a=CAogzBHxZTEWNaWVCocQkJ5mQUvIZAI0ApFOuhVaiu_wqhISexC-iqjrty8YvueD7bcvIgEAUgSQOoLZajA2kzUU5qCyItBnqfYZ_DlmKoaBUsoQZMfRGxdcqI7CS_92a7N1g94lHW42POWprWJyMOs0rZc9rTUj1a1-PvfUnxngk-zfCZiwiI_ewO0eT9c0nCv1vxrpm5Rcts1kWXYO6Q&e=1629900305&fl=&r=82d9deac-0bef-4b85-9110-7f9c6f5d330c-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=vssNnU7uvEyx3PeX18RT-tQrnSE",
+    "icon_glyph" : 59745,
+    "notes" : "",
+    "certificate_expiration" : "Sat, 24 Sep 2022 05:55:02 -0700",
+    "minimum_version" : 1113,
     "author" : {
       "name" : "anonymous",
       "link" : [
