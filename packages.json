@@ -95,31 +95,6 @@
     "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](ttps://i.imgur.com/aaC4ZZg.jpg)](ttps://i.imgur.com/aaC4ZZg.jpg)"
   },
   {
-    "file_size" : "19 KB",
-    "color" : "#00CBDF",
-    "source" : "https://Cutz.Bustl.io/featured/shortcuts/linkup/linkup.html",
-    "shortcuts_version" : "1137.2",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/linkup.html",
-    "link" : "https://www.icloud.com/shortcuts/a612b24a48e5484280c3d64d79f791dd",
-    "release" : "Wed, 25 Aug 2021 06:08:06 -0700",
-    "description" : "Name:LinkUPnDescription: Save links from a website to view, reference or research later to your reading list & notes.  category: device, utilityn---",
-    "integrity" : true,
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/linkup.png",
-    "start_color" : 1440408063,
-    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
-    "date_created" : "Wed, 25 Aug 2021 06:06:59 -0700",
-    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
-    "input" : "clipboard",
-    "category" : [
-      ""
-    ],
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-  {
     "depends" : [
       "com.shortcutspro.library.integrity"
     ],
