@@ -229,9 +229,9 @@
     "certificate_expiration" : "Sat, 24 Sep 2022 07:24:18 -0700",
     "minimum_version" : 1106,
     "author" : {
-      "name" : "anonymous",
+      "name" : "@SweetCutz",
       "link" : [
-        "about:blank"
+        "https://routinehub.co/user/sweetcutz"
       ]
     },
     "depends" : [
