@@ -92,7 +92,7 @@
         "about:blank"
       ]
     },
-    "description" : "## Choose your fields\n[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)\n\n## Clean, CSS Styling with BulmaCSS\n[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)\n\n## Auto-fill for standard types\n[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)\n\n## Fully mobile responsive HTML\n[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)\n\n## Submit button starts a shortcut with input\n[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)"
+    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)"
   },
   {
     "depends" : [
@@ -140,7 +140,7 @@
         "about:blank"
       ]
     },
-    "description" : "# PicFly\n## Finds a random picture by category from your keyword search & sets it as a wallpaper.\n---\ni.e. When prompted enter:\n- cars\n- flowers\n- tech"
+    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech"
   },
   {
     "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
@@ -198,7 +198,7 @@
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/docscanner.html",
     "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
     "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
-    "description" : "DocScanner\nScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app.",
+    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app.",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/docscanner.png",
     "start_color" : 463140863,
@@ -232,6 +232,150 @@
       "name" : "@SweetCutz",
       "link" : [
         "https://routinehub.co/user/sweetcutz"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/blinkit/blinkit.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/blinkit.html",
+    "link" : "https://www.icloud.com/shortcuts/6deef12990a04edfad58137ef38a18dc",
+    "release" : "Fri, 10 Sep 2021 03:02:23 -0700",
+    "file_size" : "20 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/blinkit.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 02:59:03 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Business",
+      "Social Networking"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Blinkit",
+    "auuid" : "5DC8F9FC-31DF-4858-BC7D-CB84446C076A",
+    "version" : "0.1",
+    "id" : "io.bustl.cutz.featured.blinkit",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AdwFUhH3s1EiTb_RO0bXru9O-oED/${f}?o=AjbZdVzaY7a9IxniZzpsAhLl8zAvnOkeiDu6llO8mdC9qnCY1hGopUHSODcjykNVnw&v=1&x=3&a=CAog2Dpo8XSk4jo536HPhdESK5svJ21ZCcJY7trweED7W2YSexCQ95b5vC8YkNTy-rwvIgEAUgRO-oEDajDCuItBchpvGfuYQ2RFm6gwGg5kamw4RQve0960tPV-qDbu6uMKxTIUi6VxBSy2VL1yMCbBMQ3y5Qbp9LgPb3QyYThdY8oeLEk497LX9jUVmGK-rfp7IIp75QBlJsgWpg5bwQ&e=1631271561&fl=&r=9766b99b-d4cb-42b7-bfde-212d823f1b01-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PSkRaRnQZfDZ4Uw8YY8Fk6klAgY",
+    "icon_glyph" : 61545,
+    "notes" : "Requires tool box pro",
+    "certificate_expiration" : "Mon, 10 Oct 2022 02:49:18 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Blinkit, setsup your Blink page NFC tag. "
+  },
+  {
+    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/appquery/appquery.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/appquery.html",
+    "link" : "https://www.icloud.com/shortcuts/95232db81f5f48b7b8edfa485fcba264",
+    "release" : "Fri, 10 Sep 2021 03:06:17 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/appquery.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 03:04:50 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "AppQuery",
+    "auuid" : "8FAE940C-E4CD-4449-A9BC-0F28FE1EF2AD",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.appquery",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AdXHbrmu0-1bo2vTU5a5DR552Etp/${f}?o=AtX1gOVUosRRWvfect1L4HRs5RjFzzlrGPyVVKLphC2ycq33krLaXnsIz27c-KtOtQ&v=1&x=3&a=CAogu1jZgdPnfsKSwxyrPGsYxpn0fxP-ySQQTMs8xQYT5KYSexDA_6v5vC8YwNyH-7wvIgEAUgR52EtpajBIUxP1vwJrKGCKvWnCD2q-zZx7Aeg1jvkJfXQ9LGaz-jk968rmVpo9RIOel55WCkZyMIzFWjN9W_xlPehjRuj8Am_mKd6AAEFGhJ_NUau-8HhijWvLTOjGlqdnTfHeVMlXRw&e=1631271906&fl=&r=9202a145-3cf6-4331-897b-4fc0c56652cf-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=LT_qnm4BKDkyPF1BHNwvBc2IX_w",
+    "icon_glyph" : 59822,
+    "notes" : "",
+    "certificate_expiration" : "Mon, 10 Oct 2022 02:55:03 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "20 KB"
+  },
+  {
+    "file_size" : "20 KB",
+    "color" : "#44C85E",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/send2quickbooks/send2quickbooks.html",
+    "shortcuts_version" : "1091.5.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.html",
+    "link" : "https://www.icloud.com/shortcuts/51f7ac34cec841f1974608a4005945ba",
+    "release" : "Fri, 10 Sep 2021 03:14:59 -0700",
+    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.png",
+    "start_color" : 4292093695,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 03:14:06 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Business",
+      "Finance"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Send2Quickbooks",
+    "auuid" : "c4f300eb-817d-43d7-9c3a-2433bc5fa303",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.send2quickbooks",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AR9CSeBU691RmLLeMTb_Cu42C51m/${f}?o=Amy2n1mpKapuLL7xt_b9DjVmrr3CD1otUVC0V25TYTtcw8ig1bpHoVCRHjSBQtz4ow&v=1&x=3&a=CAogW4gEiMtM4QxTvOdVAYhmw-IisNKVPGPqJnF0KgQWXaESexDh5s35vC8Y4cOp-7wvIgEAUgQ2C51majCnDX09-HRHPmKPHFMEzTE2-EkQAt2VY6eEC4HULpPfgY2unBAkbxdiocMt1pjMNhlyMMAg02j-3AIXZjNeSYG7YusLR3_sEr_rlEnK4QHhS5gdwuqBoWmPiWrNPkDI8U_o-g&e=1631272460&fl=&r=c730787d-4c57-4f9d-a32e-ab086d962698-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=w4uxro2-Cl6mqfRNrofVyQeOKIk",
+    "icon_glyph" : 59395,
+    "notes" : "",
+    "certificate_expiration" : "Mon, 10 Oct 2022 03:04:17 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
       ]
     },
     "depends" : [
