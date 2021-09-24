@@ -1,13 +1,15 @@
 [
   {
-    "file_size" : "25 KB",
+    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
     "color" : "#8757C2",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.html",
     "link" : "https://www.icloud.com/shortcuts/d277e484b71f4a44b19247d061490841",
     "release" : "Sat, 21 Aug 2021 11:08:24 -0500",
-    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.png",
     "start_color" : 2071128575,
@@ -42,21 +44,19 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "25 KB"
   },
   {
-    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#F58BD5",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/bustl-formz-builder/bustl-formz-builder.html",
     "shortcuts_version" : "1129",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.html",
     "link" : "https://www.icloud.com/shortcuts/7f3e09df41a14e1885673bd9f355d17e",
     "release" : "Sun, 22 Aug 2021 00:33:16 -0500",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "14 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.png",
     "start_color" : 3980825855,
@@ -92,19 +92,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "14 KB"
+    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)"
   },
   {
-    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#FF8467",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/picfly/picfly.html",
     "shortcuts_version" : "1092.6",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/picfly.html",
     "link" : "https://www.icloud.com/shortcuts/12d40bfdf03a42cbb0c1acd56c45d982",
     "release" : "Sat, 21 Aug 2021 21:12:24 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/picfly.png",
     "start_color" : 4251333119,
@@ -140,17 +140,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "20 KB"
+    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech"
   },
   {
-    "file_size" : "19 KB",
+    "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
     "color" : "#00CBDF",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/linkup/linkup.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/linkup.html",
     "link" : "https://www.icloud.com/shortcuts/d4080d1a8fa6494ca01279259ea64dbd",
     "release" : "Wed, 25 Aug 2021 06:10:20 -0700",
-    "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/linkup.png",
     "start_color" : 1440408063,
@@ -186,21 +188,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "19 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "22 KB",
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/docscanner/docscanner.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/docscanner.html",
     "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
     "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
-    "file_size" : "22 KB",
+    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app.",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/docscanner.png",
     "start_color" : 463140863,
@@ -236,19 +234,21 @@
         "https://routinehub.co/user/sweetcutz"
       ]
     },
-    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app."
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Blinkit, setsup your Blink page NFC tag. ",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/blinkit/blinkit.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/blinkit.html",
     "link" : "https://www.icloud.com/shortcuts/6deef12990a04edfad58137ef38a18dc",
     "release" : "Fri, 10 Sep 2021 03:02:23 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/blinkit.png",
     "start_color" : 463140863,
@@ -284,17 +284,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "20 KB"
+    "description" : "Blinkit, setsup your Blink page NFC tag. "
   },
   {
-    "file_size" : "20 KB",
+    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/appquery/appquery.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/appquery.html",
     "link" : "https://www.icloud.com/shortcuts/95232db81f5f48b7b8edfa485fcba264",
     "release" : "Fri, 10 Sep 2021 03:06:17 -0700",
-    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/appquery.png",
     "start_color" : 463140863,
@@ -330,21 +332,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "20 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "color" : "#44C85E",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/send2quickbooks/send2quickbooks.html",
     "shortcuts_version" : "1091.5.1",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.html",
     "link" : "https://www.icloud.com/shortcuts/51f7ac34cec841f1974608a4005945ba",
     "release" : "Fri, 10 Sep 2021 03:14:59 -0700",
-    "file_size" : "20 KB",
+    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.png",
     "start_color" : 4292093695,
@@ -380,19 +378,21 @@
         "about:blank"
       ]
     },
-    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#4A69C6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/quickconnect/quickconnect.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.html",
     "link" : "https://www.icloud.com/shortcuts/d8f61daf08744812a3787ae5cacf3154",
     "release" : "Sat, 18 Sep 2021 22:52:11 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "18 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.png",
     "start_color" : 946986751,
@@ -428,17 +428,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "18 KB"
+    "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---"
   },
   {
-    "file_size" : "17 KB",
+    "description" : "PDF Anything converts any documents, notes, images into a pdf file.",
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/pdfanything/pdfanything.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.html",
     "link" : "https://www.icloud.com/shortcuts/ba9f76307fd348aaab20b34c009f9bbe",
     "release" : "Mon, 20 Sep 2021 19:39:35 -0700",
-    "description" : "PDF Anything converts any documents, notes, images into a pdf file.",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.png",
     "start_color" : 4282601983,
@@ -468,6 +470,52 @@
     "notes" : "",
     "certificate_expiration" : "Thu, 20 Oct 2022 19:21:47 -0700",
     "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "17 KB"
+  },
+  {
+    "file_size" : "49 KB",
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/masterhashtag/masterhashtag.html",
+    "shortcuts_version" : "1134",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.html",
+    "link" : "https://www.icloud.com/shortcuts/caa46a23873a43ceb6227519bb1994f4",
+    "release" : "Thu, 23 Sep 2021 21:30:14 -0700",
+    "description" : "Name: MasterHashtagnDescription: MasterHashtagn3000 hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. category: device, utilityn---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 23 Sep 2021 21:27:55 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Social Networking",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "MasterHashtag",
+    "auuid" : "FB774FE9-CF46-46CE-9263-554E6D78E041",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.masterhashtag",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AXq816Tyfh_NP1RaLAco929wpZo_/${f}?o=AjBKLtmhm93Fk5Acp5FY3NpZ6vwODhYL7WGWnj7grWlHL500rvJtby-8me8ZH2p5PA&v=1&x=3&a=CAogJNovsPXjR1l4TeujY6lI8ZM7HqYIMiDET1IwmSwGssQSexDMu76wwS8YzJiassEvIgEAUgRwpZo_ajDO3sD8Pge0IxiylyfP6FCn6gFjcDOAss5AjS3DmKl34yediYE0Y3WUEno3nWbe9btyMCFiCjzINOSPhFgWOaaOE5dWt-bFzIb2y0_E0A-6NxY6v_vWL5LDBEAF3R5c--TTFw&e=1632461294&fl=&r=8783e5c5-59c0-45c4-8674-861dbf6f3e74-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=GF-fZfIMmqTpA-nhq_loSNAEDxo",
+    "icon_glyph" : 61549,
+    "notes" : "",
+    "certificate_expiration" : "Sun, 23 Oct 2022 21:18:11 -0700",
+    "minimum_version" : 900,
     "author" : {
       "name" : "anonymous",
       "link" : [
