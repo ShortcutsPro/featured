@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Simple Template</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Simple Template</button>
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1137.4",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 3679049983,
+   "WFWorkflowIconGlyphNumber": 59849
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [],
+"WFWorkflowMinimumClientVersion": 900,
+"WFWorkflowMinimumClientVersionString": "900",
+"WFWorkflowOutputContentItemClasses": [
+   "WFDictionaryContentItem",
+   "WFCustomIntentOutputContentItem_RmzLSk_MenuItem2"
+],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Shortcut Name
+
+A simple shortcut menu template</div></div>
+<button class="button gDocuments" id="m1">
+1 Text <b>&nbsp; ➔ Shortcut Name</b></button>
+	<div class="content">
+		<div class="col2">Simple Template</div></div>
+<button class="button gScripting" id="m2">
+2 Dictionary</button>
+	<div class="content">
+		<div class="col2">{
+   "name": "<span class="magic" onclick="magictap(1)"><b>[1 Shortcut Name</b><b>]</b></span>",
+   "version": "1.0.0",
+   "auuid": "92B85B46-362E-4369-BDDD-E3E234C30380"
+}</div></div>
+<button class="button gLoop nonbottom" id="m3">
+3 If <span class="box"><span class="var"><b>[Shortcut Input</b> as Text<b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m4">
+4 Stop and Output <span class="box"><span class="magic" onclick="magictap(2)"><b>[2 Dictionary</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m5">
+5 End If</button>
+<button class="gDocuments" id="m6">
+6 Comment</button>
+<button class="button gDocuments" id="m7">
+7 Text <b>&nbsp; ➔ Menu</b></button>
+	<div class="content">
+		<div class="col2">Title: Information
+Scale: large
+Icon: info.black,clear,A00000
+Field1: info
+
+Title: Update
+Scale: large
+Icon: arrow.clockwise.black,clear,A00000
+Field1: update
+
+Title: Back
+Scale: large
+Icon: arrowshape.turn.up.backward.black,clear,A00000
+Field1: back
+
+Title: Exit
+Scale: large
+Icon: escape.black,clear,A00000
+Field1: exit
+</div></div>
+<button class="button gUnknown" id="m8">
+8 com.alexhay.ToolboxProForShortcuts.QuickMenu2Intent</button>
+	<div class="content">
+		<div class="row"><div class="col1">text</div>
+			<div class="col2"><span class="magic" onclick="magictap(7)"><b>[7 Menu</b><b>]</b></span></div></div></div>
+<button class="button gScripting" id="m9">
+9 Choose from List <span class="box"><span class="magic" onclick="magictap(8)"><b>[8 Menu Items</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
+			<div class="col2"><span class="var"><b>[Shortcut Input</b> as Dictionary.shortcut.name<b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m10">
+10 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gLoop nonbottom" id="m11">
+11 If <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b>’s field1<b>]</b></span></span> <span class="box">is</span> <span class="box">info</span></button>
+	<div class="content contentloop">
+<button class="button gScripting inside" id="m12">
+12 Show Alert</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">AlertActionCancelButtonShown</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">AlertActionMessage</div>
+			<div class="col2"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">AlertActionTitle</div>
+			<div class="col2">You chose</div></div></div></div>
+<button class="gLoop nontop" id="m13">
+13 End If</button>
+<button class="button gDocuments" id="m14">
+14 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gLoop nonbottom" id="m15">
+15 If <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b>’s field1<b>]</b></span></span> <span class="box">contains</span> <span class="box">back</span></button>
+	<div class="content contentloop">
+<button class="button gScripting inside" id="m16">
+16 Show Alert</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">AlertActionCancelButtonShown</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">AlertActionMessage</div>
+			<div class="col2"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">AlertActionTitle</div>
+			<div class="col2">You chose:</div></div></div></div>
+<button class="gLoop nontop" id="m17">
+17 End If</button>
+<button class="button gDocuments" id="m18">
+18 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gLoop nonbottom" id="m19">
+19 If <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b>’s field1<b>]</b></span></span> <span class="box">contains</span> <span class="box">update</span></button>
+	<div class="content contentloop">
+<button class="button  inside" id="m20">
+20 Run Shortcut <span class="box">Bustl. Updater</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Input</div>
+			<div class="col2"><span class="magic" onclick="magictap(2)"><b>[2 Dictionary</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">Workflow</div>
+			<div class="col2">{"workflowIdentifier":"A746E133-9384-45E7-B00B-D29A26FAB54B","isSelf":false,"workflowName":"Bustl. Updater"}</div></div></div></div>
+<button class="gLoop nontop" id="m21">
+21 End If</button>
+<button class="button gDocuments" id="m22">
+22 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="button gLoop nonbottom" id="m23">
+23 If <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b>’s field1<b>]</b></span></span> <span class="box">contains</span> <span class="box">exit</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m24">
+24 Stop and Output <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m25">
+25 End If</button>
+<button class="button " id="m26">
+26 Run Shortcut <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Shortcut Name</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Workflow</div>
+			<div class="col2"><span class="magic" onclick="magictap(1)"><b>[1 Shortcut Name</b><b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m27">
+27 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+                         @̷̵͉̦̑s͖̐̈́̚ć̖͕͕͍̅̊ò͚̹̟̙̲̫̰͗̿͟t̡̡̼̱ͣͬ́͊ͪͭṱ̨̝̖̲ͥ̆ͪd̨̪̩̅͐ͤ̌̏̉̕͡w̧͎̙̏̓̅̓͡͞r̶̢͕̟̜ͥ̒͌̄͢ͅ
+
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
