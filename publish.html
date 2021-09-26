@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
-    <title>Bustl.Cutz Featured</title>
+    <title>ShortcutsPro Library</title>
     <style>
       @charset "utf-8"; 
       html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif; }     
@@ -42,11 +42,10 @@
   </head>
   <body>
     <section class="section" style="margin: 0;">
-      <div class="container" style="margin: auto;">
+  
         <form class="form">
-          <center>
-            <h2 class="title">Bustl.Cutz Featured</h2>
-          </center>     
+          <fieldset class="fieldset">
+            <legend class="title">Bustl.Cutz Featured</legend>
 
           <div class="field">
             <label class="label" for="name">Name</label>
@@ -641,7 +640,7 @@
               <textarea class="textarea is-info is-normal" placeholder="Release Notes" id="notes"></textarea>
             </div>
           </div>
-          
+        
           <div class="field is-grouped is-grouped-centered">
             <div class="field">
               <div class="control">
@@ -649,9 +648,9 @@
               </div>
             </div>
           </div>
-
-        </form>
-      </div>
+      
+        </fieldset>
+      </form>
     </section>
     <script type="text/javascript">
       const DATA = {
@@ -663,7 +662,7 @@
         authorName : decodeURIComponent(QUERY.searchParams.get('authorName')),
         authorLink : decodeURIComponent(QUERY.searchParams.get('authorLink'))
       };
-      // alert(JSON.stringify(DATA,null,'\t'));
+      let hide = false;
       const form = { 
         name: document.getElementById('name'),
         auuid: document.getElementById('auuid'),
@@ -696,8 +695,8 @@
         }; 
         if (DATA.authorName != 'null') {
           form.authorName.setAttribute("value", DATA.authorName);
-          form.authorName.setAttribute("class", "input is-primary is-normal");         
-        }; 
+          form.authorName.setAttribute("class", "input is-primary is-normal");
+        };
         if (DATA.authorLink != 'null') {
           form.authorLink.setAttribute("value", DATA.authorLink);
           form.authorLink.setAttribute("class", "input is-primary is-normal");         
@@ -735,7 +734,7 @@
       form.notes.addEventListener('change', () => {
         form.notes.setAttribute("class", "textarea is-primary is-normal");
       });
-      
+
       form.submit.addEventListener('click', (e) => {
         e.preventDefault;
         
@@ -783,6 +782,7 @@
           name: form.authorName.value,
           link: authorLink
         }
+        
         const data = {
           name: form.name.value,
           auuid: form.auuid.value,
