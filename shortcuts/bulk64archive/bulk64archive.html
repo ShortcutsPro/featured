@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Bulk64Archive</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Bulk64Archive</button>
+<div class="content" style="display:none"><div class="col2">"WFQuickActionSurfaces": [],
+"WFWorkflowClientVersion": "1143",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 255,
+   "WFWorkflowIconGlyphNumber": 61565
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFAppStoreAppContentItem",
+   "WFArticleContentItem",
+   "WFContactContentItem",
+   "WFDateContentItem",
+   "WFEmailAddressContentItem",
+   "WFGenericFileContentItem",
+   "WFImageContentItem",
+   "WFiTunesProductContentItem",
+   "WFLocationContentItem",
+   "WFDCMapsLinkContentItem",
+   "WFAVAssetContentItem",
+   "WFPDFContentItem",
+   "WFPhoneNumberContentItem",
+   "WFRichTextContentItem",
+   "WFSafariWebPageContentItem",
+   "WFStringContentItem",
+   "WFURLContentItem"
+],
+"WFWorkflowMinimumClientVersion": 1106,
+"WFWorkflowMinimumClientVersionString": "1106",
+"WFWorkflowOutputContentItemClasses": [
+   "WFGenericFileContentItem",
+   "WFStringContentItem"
+],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Name: Bulk64Archive
+Description: Bulk base 64 encode files &amp; archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility
+---
+{"name":"Bulk64Archive","auuid":"BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207","version":"1"}</div></div>
+<button class="button gDocuments" id="m1">
+1 Text</button>
+	<div class="content">
+		<div class="col2">{"™️":{"™️":"Bustl","site":"https:\/\/Bustl.io","company":"Simpl System LLC","©️":"All rights reserved"},"shortcut":{"description":"Bulk base 64 encode files &amp; archive all of the encoded files into a zip.  great for sharing large number of documents.","category":"device, utility","id":"com.github.shortcutpros.library.Integrity","version":1,"integrity":true,"author":{"name":"alex,scott","link":"https:\/\/bustl.io\/shortcuts","agency":"@itsbustl"},"depends":[],"link":"https:\/\/bustl.io\/shortcuts\/Bulk64Archive","license":"Integrity Framework Copyright © 2021 Scott Wright  MIT License","application":"𝘽𝙪𝙨𝙩𝙡.","quiet":true,"urls":{"home":"https:\/\/bustl.io","news":"https:\/\/bustl.io\/news","info":"https:\/\/bustl.io\/shortcuts\/Bulk64Archive"},"files":{"results":"Bulk64Archive.txt","folder":"Bulk64Archive","path":"\/Bulk64Archive\/"},"date":"Oct 5, 2021 at 9:45 PM","error":{"499":"user shut off request in the middle of processing ","401":"Unauthorized request please make sure credentials are correct or contact ™️ Bustl.io","404":"no value was found","504":"Timeout - please try again in 1 minute.  If the error continues contact ™️ Bustl.io","403":"Forbidden request. You do not have access please contact ™️ Bustl.io","500":"Cannot be processed for unknown reasons ","503":"Your device isn't connected to interne","7474":"Your plan does not cover this support - please upgrade or contact an account manager at ™️ Bustl.io"},"arch":"ios15","auuid":"BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207","name":"Bulk64Archive"},"siri":false,"client":{"phone":"","setup":false,"bustler":false,"cuui":"","onboard":false,"name":"","api_key":""},"code":{"regex":"^\\s+|\\s+$|\\s+(?=\\s)\/g","uuid":"data:text\/html;charset=utf-8,&lt;script>f='uuid'.trim().toLowerCase(),c=+'1'||1,r=(a,v,i)=>a+(f=='hex'||i%2||i&lt;4||i>10?'':'-')+('0'+v.toString(16)).substr(-2),document.write(Array(c).fill().map(_=>(b=crypto.getRandomValues(new Uint8Array(16)),b[6]=64|15&amp;b[6],b[8]=128|63&amp;b[8],f=='base64'?btoa(String.fromCharCode(...b)):b.reduce(r,''))).join(','))&lt;\/script>","invisible":"‌"},"author":{"name":"Alex","link":"https:\/\/routinehub.co\/user\/Sweetcuts"},"***":"***","language":"en-US","bool":{"true":true,"false":false},"translate":false,"formz":{"url":"data:text\/html;charset=utf-8;base64,","code":"PCEtLSBCYXNpYyBIVE1MNS1DU1MzIFRlbXBsYXRlIC0tPgo8IS0tIEJ1c3RsLsKu77iO4oSi77iOIGlzIGEgdHJhZGVtYXJrIG9mIFNpbXBsIFN5c3RlbSwgbGxjLi0tPgo8IS0tIElOVEVHUklUWS3wnZGD8J2RhfCdkYIgfCBNSVQg4oCiIGdpdGh1Yi5jb20vc2NvdHRkd3IgLS0+CjwhLS0gYnVsbWEuaW8gdjAuOS4yIHwgTUlUIOKAoiBnaXRodWIuY29tL2pndGhtcy9idWxtYSAtLT4gCjwhLS0tLT4KPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIiBkaXI9ImF1dG8iPgogIDxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxlPTEuMCxtYXhpbXVtLXNjYWxlPTEuMCx1c2VyLXNjYWxhYmxlPW5vIj4KICAgIDxtZXRhIG5hbWU9ImFwcGxlLW1vYmlsZS13ZWItYXBwLWNhcGFibGUiIGNvbnRlbnQ9InllcyI+CiAgICA8bWV0YSBuYW1lPSJhcHBsZS1tb2JpbGUtd2ViLWFwcC1zdGF0dXMtYmFyLXN0eWxlIiBjb250ZW50PSJ3aGl0ZS10cmFuc2x1Y2VudCI+CiAgICA8bGluayByZWw9ImFwcGxlLXRvdWNoLWljb24iIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vVVZzc0diay5wbmciPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9idWxtYS8wLjkuMi9jc3MvYnVsbWEubWluLmNzcyI+CiAgICA8dGl0bGU+SW5kZXg8L3RpdGxlPgogICAgPHN0eWxlPgogICAgICBAY2hhcnNldCAidXRmLTgiOyAKICAgICAgaHRtbCB7IGZvbnQtc2l6ZTogMTAwJTsgZm9udC1mYW1pbHk6IEhlbHZldGljYSwgQXJpYWwsIEZyZWVzYW5zLCBjbGVhbiwgc2Fucy1zZXJpZjsgfSAgICAgCiAgICAgIGJvZHkgeyBtYXJnaW46IDA7IHBhZGRpbmc6IDFlbTsgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7IGZvbnQtZmFtaWx5OiBzeXN0ZW0tdWk7IGNvbG9yOiBibGFjazsgfQogICAgICBAbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrOykgeyBib2R5IHsgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7IGNvbG9yOiB3aGl0ZTsgfX0gIC8qIERhcmsgTW9kZSAqLyAKICAgICAgQG1lZGlhIChtYXgtZGV2aWNlLXdpZHRoOiA0ODBweDspIHsgfQogICAgICBAbWVkaWEgKG1pbi1kZXZpY2Utd2lkdGg6IDQ4MXB4OykgeyBib2R5IHsgbWFyZ2luOiBhdXRvOyBtYXgtd2lkdGg6IDYwMHB4OyB9fQogICAgICBpbWcgeyBtYXgtd2lkdGg6IDkwJTsgfQogICAgICAvKiBkZWJ1Zy5jc3MgfCBNSVQgTGljZW5zZSB8IHpheWRlay5naXRodWIuY29tL2RlYnVnLmNzcyAqCiAgICAgIDpub3QocGF0aCk6bm90KGcpIHsKICAgICAgCWNvbG9yOiAgICAgICAgICAgICAgICAgICAgaHNsYSgyMTAsIDEwMCUsIDEwMCUsIDAuOSkgIWltcG9ydGFudDsKICAgICAgCWJhY2tncm91bmQ6ICAgICAgICAgICAgICAgaHNsYSgyMTAsIDEwMCUsICA1MCUsIDAuNSkgIWltcG9ydGFudDsKICAgICAgCW91dGxpbmU6ICAgIHNvbGlkIDAuMjVyZW0gaHNsYSgyMTAsIDEwMCUsIDEwMCUsIDAuNSkgIWltcG9ydGFudDsKICAgICAgCWJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDsKICAgICAgfSAgKi8KICAgIDwvc3R5bGU+CiAgPC9oZWFkPgogIDxib2R5Pgo8IS0tIEJlZyAtLT4KICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4KICAgICAgPGNlbnRlcj4KICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgICAgPGgxIGNsYXNzPSJ0aXRsZSI+QnVzdGwuIDxlbT5mb3JtejwvZW0+PC9oMT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJjb250cm9sIj4KICAgICAgICAgPGZvcm0gY2xhc3M9ImZvcm0iPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIiBzdHlsZT0icGFkZGluZzogMmVtOyBtYXJnaW4tbGVmdDogM2VtOyBtYXJnaW4tcmlnaHQ6IDNlbTsgbWFyZ2luLXRvcDogMmVtOyI+CiAgICAgICAgICAgICAgPGxhYmVsIGZvcj0idXNlcm5hbWUiIHN0eWxlPSJmb250LXNpemU6IDJlbTsiPk5hbWU8L2xhYmVsPgogICAgICAgICAgICAgIDxpbnB1dCBjbGFzcz0iaW5wdXQgaXMtcHJpbWFyeSBpcy1sYXJnZSBpcy1yb3VuZGVkIiB0eXBlPSJ0ZXh0IiBpZD0idXNlcm5hbWUiIHNwZWxsY2hlY2s9ImZhbHNlIj4KICAgICAgCiAgICAgICAgICAgICAgPGxhYmVsIGZvcj0iZW1haWwiIHN0eWxlPSJmb250LXNpemU6IDJlbTsiPkVtYWlsPC9sYWJlbD4KICAgICAgICAgICAgICA8aW5wdXQgY2xhc3M9ImlucHV0IGlzLXN1Y2Nlc3MgaXMtbGFyZ2UgaXMtcm91bmRlZCIgdHlwZT0iZW1haWwiIGlkPSJlbWFpbCIgYXV0b2NvbXBsZXRlPSJ0cnVlIj4KICAgICAgICAgICAgICAKICAgICAgICAgICAgICA8bGFiZWwgZm9yPSJwaG9uZSIgc3R5bGU9ImZvbnQtc2l6ZTogMmVtOyI+UGhvbmU8L2xhYmVsPgogICAgICAgICAgICAgIDxpbnB1dCBjbGFzcz0iaW5wdXQgaXMtbGluayBpcy1sYXJnZSBpcy1yb3VuZGVkIiB0eXBlPSJwaG9uZSIgaWQ9InBob25lIiBhdXRvY29tcGxldGU9InRydWUiPgogICAgICAgICAgICAgIAogICAgICAgICAgICAgIDxsYWJlbCBmb3I9ImNvbG9yIiBzdHlsZT0iZm9udC1zaXplOiAyZW07Ij5GYXZvcml0ZSBDb2xvcjwvbGFiZWw+CiAgICAgICAgICAgICAgPGlucHV0IGNsYXNzPSJpbnB1dCBpcy13YXJuaW5nIGlzLWxhcmdlIGlzLXJvdW5kZWQiIHR5cGU9InRleHQiIGlkPSJjb2xvciI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImJ1dHRvbiBpcy1kYXJrIGlzLWxhcmdlIiBzdHlsZT0ibWFyZ2luLXRvcDogM2VtOyIgdHlwZT0ic3VibWl0IiBpZD0iYnRuLXN1Ym1pdCI+U3VibWl0PC9idXR0b24+CiAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvY2VudGVyPgogICAgPC9zZWN0aW9uPgo8IS0tIEVuZCAtLT4KICAgIDxzY3JpcHQ+CiAgICAgIGNvbnN0IGZvcm0gPSB7CiAgICAgICAgdXNlcm5hbWU6IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd1c2VybmFtZScpLAogICAgICAgIGVtYWlsOiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZW1haWwnKSwKICAgICAgICBwaG9uZTogZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Bob25lJyksCiAgICAgICAgY29sb3I6IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjb2xvcicpLAogICAgICAgIHN1Ym1pdDogZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2J0bi1zdWJtaXQnKSwKICAgICAgfTsKCiAgICAgIGZvcm0uc3VibWl0LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlcXVlc3REYXRhID0gYHtcIm5hbWVcIjpcIkdldCUyMERpY3Rpb25hcnlcIixcImlucHV0XCI6e1widXNlcm5hbWVcIjpcIiR7Zm9ybS51c2VybmFtZS52YWx1ZX1cIixcImVtYWlsXCI6XCIke2Zvcm0uZW1haWwudmFsdWV9XCIsXCJwaG9uZVwiOlwiJHtmb3JtLnBob25lLnZhbHVlfVwiLFwiY29sb3JcIjpcIiR7Zm9ybS5jb2xvci52YWx1ZX1cIn19YDsKICAgICAgICAKICAgICAgICB3aW5kb3cub3Blbignc2hvcnRjdXRzOi8vcnVuLXNob3J0Y3V0P25hbWU9SU5URUdSSVRZJmlucHV0PXRleHQmdGV4dD0nK3JlcXVlc3REYXRhKTsKICAgICAgICB3aW5kb3cuY2xvc2UoKTsKICAgICAgICB9KTsKICAgIDwvc2NyaXB0PgogIDwvYm9keT4KPC9odG1sPg=="}}</div></div>
+<button class="gVariable" id="m2">
+2 Set Variable <span class="box">Dictionary</span> to <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m3">
+3 Text</button>
+	<div class="content">
+		<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m4">
+4 If <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Text</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m5">
+5 Stop and Output <span class="box"><span class="var"><b>[Dictionary</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m6">
+6 End If</button>
+<button class="button " id="m7">
+7 Select File</button>
+	<div class="content">
+		<div class="row"><div class="col1">FileErrorIfNotFound</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">SelectMultiple</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">GetFilePath</div>
+			<div class="col2"></div></div>
+		<div class="row"><div class="col1">GetFolderContents</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">ShowFilePicker</div>
+			<div class="col2">true</div></div></div>
+<button class="button gLoop nonbottom" id="m8">
+8 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 File</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class="button gScripting inside" id="m9">
+9 Base64 Encode <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Base64LineBreakMode</div>
+			<div class="col2">None</div></div></div>
+<button class="gScripting inside" id="m10">
+10 Get Name of <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m11">
+11 Set Name of <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Base64 Encoded</b><b>]</b></span></span> to <span class="box"> Base64 <span class="magic" onclick="magictap(10)"><b>[10 Name</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m12">
+12 End Repeat with Each</button>
+<button class="" id="m13">
+13 Count Items in <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 Repeat Results</b><b>]</b></span></span></button>
+<button class="button " id="m14">
+14 Show Notification</button>
+	<div class="content">
+		<div class="row"><div class="col1">NotificationActionBody</div>
+			<div class="col2"><span class="magic" onclick="magictap(13)"><b>[13 Count</b><b>]</b></span> Files encoded to base 64.</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2">Bulk File Encoder</div></div></div>
+<button class="button " id="m15">
+15 Make <span class="box">zip</span> Archive from <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 Repeat Results</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ZIPName</div>
+			<div class="col2"></div></div></div>
+<button class="button " id="m16">
+16 Save <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 Archive</b><b>]</b></span></span> to File</button>
+	<div class="content">
+		<div class="row"><div class="col1">AskWhereToSave</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">FileDestinationPath</div>
+			<div class="col2"></div></div></div>
+<button class="button " id="m17">
+17 Show Notification</button>
+	<div class="content">
+		<div class="row"><div class="col1">Input</div>
+			<div class="col2"><span class="magic" onclick="magictap(16)"><b>[16 Saved File</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">NotificationActionBody</div>
+			<div class="col2"><span class="magic" onclick="magictap(13)"><b>[13 Count</b><b>]</b></span> Encoded files  zipped</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2">Zipped  Encoded Files</div></div></div>
+<button class="gScripting" id="m18">
+18 Stop and Output <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 Archive</b><b>]</b></span></span></button>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>

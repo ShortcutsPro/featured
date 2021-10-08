@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="viewport-fit=cover,initial-scale=1,minimum-scale=1, maximum-scale=1,width=device-width,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+<title>Bulk64Archive</title>
+<style>
+      @charset "utf-8"; 
+      html { 
+        font-size:100%;
+        font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+      }     
+      body {
+        margin: 0;
+        padding: 1em
+      }
+      @media (max-device-width: 480px) { 
+      } 
+      @media (min-device-width: 481px) { 
+         body {
+           margin:auto;
+           max-width:600px;
+         } 
+      }
+      img {
+         max-width: 90%;
+         object-fit: cover;
+      }
+      body {
+         margin: 1em;
+         background-size: cover;
+         padding-left: env(safe-area-inset-left);
+         padding-right: env(safe-area-inset-right);
+         padding-top: env(safe-area-inset-top);
+      }
+      h1 {
+        font-family: -apple-system;
+        color: black;
+        font-weight: 800;
+        font-size: 2em;
+      }
+      h2 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.7em;
+      }
+      h3, h4 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.3em;
+      }
+      p, ul {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+      }
+      blockquote {
+        font-family: -apple-system;
+        font-weight: 300;
+        color: black;
+        font-size: 1em;
+        font-style: italic;
+      }
+      ol {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+        margin: 15px;
+     }
+    a {
+      color: navy;
+    }
+  </style>
+</head>
+<body>
+
+<h2><a href="data:image/png;base64,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"><img src="data:image/png;base64,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" alt="Bulk64Archive" /></a> <a href="https://Cutz.Bustl.io/featured/depiction/bulk64archive.html">Bulk64Archive</a></h2>
+<h3>Name: Bulk64Archive Description: Bulk base 64 encode files &amp; archive all of the …</h3>
+<p><em>Author: <a href="about:blank"><strong>anonymous</strong></a></em></p>
+<p>Development Tools, Utilities</p>
+
+<hr />
+<h3>Name: Bulk64Archive Description: Bulk base 64 encode files &amp; archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility ---</h3>
+<ul>
+<li>Designed for iOS15</li>
+<li>Last updated on Oct 7, 2021 at 10:30 PM</li>
+</ul>
+<p><a href="https://Cutz.Bustl.io/featured/shortcuts/bulk64archive/bulk64archive.html"><strong>View contents.</strong></a></p>
+
+
+</body>
+</html>
