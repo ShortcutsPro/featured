@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFQuickActionSurfaces</key>
+	<array/>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>Translate
+Translate any text to English.  Auto detects input language translated to english by default. 
+---
+{"name":"Translate","auuid":"BA912FE4-3D6C-4AF2-9C0E-252A4F50DC07","version":"1"}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>text</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.translate</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>B83F34AC-2EC5-4F9F-B83F-34AC2EC5CF9F</string>
+				<key>WFInputText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>text</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFSelectedFromLanguage</key>
+				<string>Detect Language</string>
+				<key>WFSelectedLanguage</key>
+				<string>English</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Translated Text</string>
+						<key>OutputUUID</key>
+						<string>B83F34AC-2EC5-4F9F-B83F-34AC2EC5CF9F</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>translation</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionMessage</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>text</string>
+								<key>VariableUUID</key>
+								<string>8D461C73-BE27-4FD0-8C98-8BB5EF11EAF9</string>
+							</dict>
+							<key>{15, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>translation</string>
+								<key>VariableUUID</key>
+								<string>CE00B257-3885-49BC-BE33-FC17011CBD98</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>“￼”
+ 
+means…
+
+“￼”</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFAlertActionTitle</key>
+				<string>Result</string>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientVersion</key>
+	<string>1145.8</string>
+	<key>WFWorkflowHasOutputFallback</key>
+	<false/>
+	<key>WFWorkflowHasShortcutInputVariables</key>
+	<true/>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59729</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>946986751</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array>
+		<dict>
+			<key>ActionIndex</key>
+			<integer>2</integer>
+			<key>Category</key>
+			<string>Parameter</string>
+			<key>DefaultValue</key>
+			<string>Detect Language</string>
+			<key>ParameterKey</key>
+			<string>WFSelectedFromLanguage</string>
+			<key>Text</key>
+			<string>Auto detects the language </string>
+		</dict>
+		<dict>
+			<key>ActionIndex</key>
+			<integer>2</integer>
+			<key>Category</key>
+			<string>Parameter</string>
+			<key>DefaultValue</key>
+			<string>English</string>
+			<key>ParameterKey</key>
+			<string>WFSelectedLanguage</string>
+			<key>Text</key>
+			<string>Translation to </string>
+		</dict>
+	</array>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFStringContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowOutputContentItemClasses</key>
+	<array/>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>Watch</string>
+		<string>ActionExtension</string>
+	</array>
+</dict>
+</plist>

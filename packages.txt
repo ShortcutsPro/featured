@@ -1,13 +1,15 @@
 [
   {
-    "file_size" : "25 KB",
+    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
     "color" : "#8757C2",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.html",
     "link" : "https://www.icloud.com/shortcuts/d277e484b71f4a44b19247d061490841",
     "release" : "Sat, 21 Aug 2021 11:08:24 -0500",
-    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.png",
     "start_color" : 2071128575,
@@ -42,21 +44,19 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "25 KB"
   },
   {
-    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#F58BD5",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/bustl-formz-builder/bustl-formz-builder.html",
     "shortcuts_version" : "1129",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.html",
     "link" : "https://www.icloud.com/shortcuts/7f3e09df41a14e1885673bd9f355d17e",
     "release" : "Sun, 22 Aug 2021 00:33:16 -0500",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "14 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.png",
     "start_color" : 3980825855,
@@ -92,19 +92,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "14 KB"
+    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)"
   },
   {
-    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#FF8467",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/picfly/picfly.html",
     "shortcuts_version" : "1092.6",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/picfly.html",
     "link" : "https://www.icloud.com/shortcuts/12d40bfdf03a42cbb0c1acd56c45d982",
     "release" : "Sat, 21 Aug 2021 21:12:24 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/picfly.png",
     "start_color" : 4251333119,
@@ -140,17 +140,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "20 KB"
+    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech"
   },
   {
-    "file_size" : "19 KB",
+    "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
     "color" : "#00CBDF",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/linkup/linkup.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/linkup.html",
     "link" : "https://www.icloud.com/shortcuts/d4080d1a8fa6494ca01279259ea64dbd",
     "release" : "Wed, 25 Aug 2021 06:10:20 -0700",
-    "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/linkup.png",
     "start_color" : 1440408063,
@@ -186,21 +188,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "19 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "22 KB",
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/docscanner/docscanner.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/docscanner.html",
     "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
     "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
-    "file_size" : "22 KB",
+    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app.",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/docscanner.png",
     "start_color" : 463140863,
@@ -236,19 +234,21 @@
         "https://routinehub.co/user/sweetcutz"
       ]
     },
-    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app."
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Blinkit, setsup your Blink page NFC tag. ",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/blinkit/blinkit.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/blinkit.html",
     "link" : "https://www.icloud.com/shortcuts/6deef12990a04edfad58137ef38a18dc",
     "release" : "Fri, 10 Sep 2021 03:02:23 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/blinkit.png",
     "start_color" : 463140863,
@@ -284,17 +284,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "20 KB"
+    "description" : "Blinkit, setsup your Blink page NFC tag. "
   },
   {
-    "file_size" : "20 KB",
+    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/appquery/appquery.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/appquery.html",
     "link" : "https://www.icloud.com/shortcuts/95232db81f5f48b7b8edfa485fcba264",
     "release" : "Fri, 10 Sep 2021 03:06:17 -0700",
-    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/appquery.png",
     "start_color" : 463140863,
@@ -330,21 +332,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "20 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "color" : "#44C85E",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/send2quickbooks/send2quickbooks.html",
     "shortcuts_version" : "1091.5.1",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.html",
     "link" : "https://www.icloud.com/shortcuts/51f7ac34cec841f1974608a4005945ba",
     "release" : "Fri, 10 Sep 2021 03:14:59 -0700",
-    "file_size" : "20 KB",
+    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.png",
     "start_color" : 4292093695,
@@ -380,19 +378,21 @@
         "about:blank"
       ]
     },
-    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#4A69C6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/quickconnect/quickconnect.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.html",
     "link" : "https://www.icloud.com/shortcuts/d8f61daf08744812a3787ae5cacf3154",
     "release" : "Sat, 18 Sep 2021 22:52:11 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "18 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.png",
     "start_color" : 946986751,
@@ -428,17 +428,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "18 KB"
+    "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---"
   },
   {
-    "file_size" : "17 KB",
+    "description" : "PDF Anything converts any documents, notes, images into a pdf file.",
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/pdfanything/pdfanything.html",
     "shortcuts_version" : "1137.4",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.html",
     "link" : "https://www.icloud.com/shortcuts/ba9f76307fd348aaab20b34c009f9bbe",
     "release" : "Mon, 20 Sep 2021 19:39:35 -0700",
-    "description" : "PDF Anything converts any documents, notes, images into a pdf file.",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.png",
     "start_color" : 4282601983,
@@ -474,21 +476,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "17 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "49 KB",
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/masterhashtag/masterhashtag.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.html",
     "link" : "https://www.icloud.com/shortcuts/caa46a23873a43ceb6227519bb1994f4",
     "release" : "Thu, 23 Sep 2021 21:30:14 -0700",
-    "file_size" : "49 KB",
+    "description" : "Name: MasterHashtagnDescription: MasterHashtagn3000 hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. category: device, utilityn---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.png",
     "start_color" : 463140863,
@@ -524,19 +522,21 @@
         "about:blank"
       ]
     },
-    "description" : "Name: MasterHashtagnDescription: MasterHashtagn3000 hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. category: device, utilityn---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Name: ColorPalettenDescription: ColorPalette - build a color palette with samples & hex codes.ncategory: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/colorpalette/colorpalette.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/colorpalette.html",
     "link" : "https://www.icloud.com/shortcuts/c97a286e1076402bb0b54af24fd1e281",
     "release" : "Thu, 23 Sep 2021 21:52:22 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "23 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/colorpalette.png",
     "start_color" : 4282601983,
@@ -572,150 +572,7 @@
         "about:blank"
       ]
     },
-    "file_size" : "23 KB"
-  },
-  {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
-    "color" : "#BB7AE3",
-    "source" : "https://Cutz.Bustl.io/featured/shortcuts/simple-template/simple-template.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/simple-template.html",
-    "link" : "https://www.icloud.com/shortcuts/80a1d7e3006a47b0a9550032041f3f6f",
-    "release" : "Sun, 26 Sep 2021 15:00:40 -0500",
-    "file_size" : "8 KB",
-    "integrity" : true,
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/simple-template.png",
-    "start_color" : 3679049983,
-    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-    "date_created" : "Sun, 26 Sep 2021 14:56:20 -0500",
-    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-    "category" : [
-      "Development Tools"
-    ],
-    "input" : "",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "name" : "Simple Template",
-    "auuid" : "92B85B46-362E-4369-BDDD-E3E234C30380",
-    "version" : "1.0.0",
-    "id" : "io.bustl.cutz.featured.simple-template",
-    "arch" : "iOS14",
-    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AZEGLN8W0FH2NXvExJU2_RsS3qkU/${f}?o=Ai5mSjpOsakbeavb74uZ6JtilLkAGQUQF0L7Oglj4O-zPxDqPDgll8ZglKW7_ZXktw&v=1&x=3&a=CAog3DFNlqF3DbMVX0lfVAze-mLldJh0imB0WMDpNImtkc0SexDvpbmdwi8Y74KVn8IvIgEAUgQS3qkUajDkztIVC5zgkYe6ylf6-HEtaABq9sOzKA_ZLQZVRpTuzWO0HMuByLTmhyXCmtwRvRdyMLZAaM2HZl7SSZ81tt_MDFrqFKidGR5UOLWRSkl5RwDJO6r2BEiqMQxOViLlwAoGYA&e=1632689799&fl=&r=93a0adc5-4606-4095-a30b-da045c7a7aa2-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=XeF313Hbf01Xo7DeT4W41nOovYA",
-    "notes" : "Test publish",
-    "icon_glyph" : 59849,
-    "certificate_expiration" : "Wed, 26 Oct 2022 14:46:36 -0500",
-    "minimum_version" : 900,
-    "author" : {
-      "name" : "anonymous",
-      "link" : [
-        "about:blank"
-      ]
-    },
-    "description" : "Shortcut NamennA simple shortcut menu template"
-  },
-  {
-    "description" : "Name: Bulk64Archive Description: Bulk base 64 encode files & archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility ---",
-    "color" : "#86919B",
-    "source" : "https://Cutz.Bustl.io/featured/shortcuts/bulk64archive/bulk64archive.html",
-    "shortcuts_version" : "1143",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.html",
-    "link" : "https://www.icloud.com/shortcuts/3acd905a3c1a45a19917ee9bb34babc1",
-    "release" : "Thu, 07 Oct 2021 22:30:19 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
-    "integrity" : true,
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.png",
-    "start_color" : 255,
-    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
-    "date_created" : "Thu, 07 Oct 2021 22:24:57 -0700",
-    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
-    "category" : [
-      "Development Tools",
-      "Utilities"
-    ],
-    "input" : "",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "name" : "Bulk64Archive",
-    "auuid" : "BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207",
-    "version" : "1",
-    "id" : "io.bustl.cutz.featured.bulk64archive",
-    "arch" : "iOS15",
-    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-    "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AZzcg6Q2iMaYk7OeGfjPBg6Nlutn/${f}?o=AiqJ70F6TWHvPqM7VA5idezUGWG_OXQwfwAelYfdv9j5BwRLUdNyA1p9dRbuiSwPeQ&v=1&x=3&a=CAogoSpm6pjSBD4-yaNvNsFbRjMgZ29ijoMZ6X7Xoq_fyiQSexCJq_PyxS8YiYjP9MUvIgEAUgSNlutnajBhx9VFtWmxsWsE9DUBkcc-pKcjwFIW68j8adsQT8eo0Ug6KB8GRkktsZLVRwR2bfdyMNHuUxI-lZoq4mhGkJZZuHZqkDSk6d-eekZrsDUB7WhhZdHpB5aZLp0SSF5oxhvXPw&e=1633674314&fl=&r=f2962b20-f718-4522-a3df-5dda50ff9c1f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PfgUi8wy35XvxAVMzOyr2U_zZ4s",
-    "notes" : "",
-    "icon_glyph" : 61565,
-    "certificate_expiration" : "Sun, 06 Nov 2022 21:15:12 -0800",
-    "minimum_version" : 1106,
-    "author" : {
-      "name" : "anonymous",
-      "link" : [
-        "about:blank"
-      ]
-    },
-    "file_size" : "19 KB"
-  },
-  {
-    "file_size" : "5.5 MB",
-    "color" : "#00CBDF",
-    "source" : "https://Cutz.Bustl.io/featured/shortcuts/siriringtonegenerator/siriringtonegenerator.html",
-    "shortcuts_version" : "1144.1.1",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.html",
-    "link" : "https://www.icloud.com/shortcuts/663ae630019f4c80b1a552d720e2daa0",
-    "release" : "Sat, 16 Oct 2021 10:09:47 -0700",
-    "description" : "SiriRingtone SiriRingtone allows you to generate custom announcement ringtones to assign them in your ringtone settings for different types of notifications, a contact call &/or text announcements. ---",
-    "integrity" : true,
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.png",
-    "start_color" : 1440408063,
-    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
-    "date_created" : "Sat, 16 Oct 2021 10:07:37 -0700",
-    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
-    "category" : [
-      "Productivity",
-      "Utilities"
-    ],
-    "input" : "",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "name" : "SiriRingtoneGenerator",
-    "auuid" : "80D1F78F-AABA-47D7-A840-A04A1F6870DB",
-    "version" : "1",
-    "id" : "io.bustl.cutz.featured.siriringtonegenerator",
-    "arch" : "iOS15",
-    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-    "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/Afw_HY2w3LhYq2iYIzaFGh1fTru4/${f}?o=AhkgpYUte-bTh33eKfQjPuutwQTgnEr_SNH3CZVmZaods_AEf-lrmFnhqL6doIexhg&v=1&x=3&a=CAoglnD_v6w9wDfJa02JUTgt7zvNuchIU3epGs0p11CRjvASexCy9cvQyC8YstKn0sgvIgEAUgRfTru4ajAuL49G_kSxpqy-gwBn9Md33DobphzVR1s6hBgsRY6fr5A436fT1TsgIk2NYriscMJyMCL8UB5eJhqJHah6qaY9lDdy6kzEjopzSbldx68y0ZHIIpCULi50cU_I1xy7b9hUvQ&e=1634407672&fl=&r=355ad07d-c8e0-42a3-9fca-ac14d75c0507-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TAClqdijTYRecSESuaqYFtGPsm4",
-    "notes" : "",
-    "icon_glyph" : 61440,
-    "certificate_expiration" : "Tue, 15 Nov 2022 08:57:46 -0800",
-    "minimum_version" : 1106,
-    "author" : {
-      "name" : "anonymous",
-      "link" : [
-        "about:blank"
-      ]
-    },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "description" : "Name: ColorPalettenDescription: ColorPalette - build a color palette with samples & hex codes.ncategory: device, utilityn---"
   },
   {
     "file_size" : "8 KB",
@@ -765,16 +622,159 @@
     ]
   },
   {
-    "description" : "MealTimers During the holidays you may be prepping multiple items at the same time.  The clock app only runs 1 timer at a time. This shortcuts allows you to setup multiple timers & title them by the item you're prepping - so when it goes off, it will appear the name of item that is done. ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#86919B",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/bulk64archive/bulk64archive.html",
+    "shortcuts_version" : "1143",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.html",
+    "link" : "https://www.icloud.com/shortcuts/3acd905a3c1a45a19917ee9bb34babc1",
+    "release" : "Thu, 07 Oct 2021 22:30:19 -0700",
+    "file_size" : "19 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.png",
+    "start_color" : 255,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 07 Oct 2021 22:24:57 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Bulk64Archive",
+    "auuid" : "BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.bulk64archive",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZzcg6Q2iMaYk7OeGfjPBg6Nlutn/${f}?o=AiqJ70F6TWHvPqM7VA5idezUGWG_OXQwfwAelYfdv9j5BwRLUdNyA1p9dRbuiSwPeQ&v=1&x=3&a=CAogoSpm6pjSBD4-yaNvNsFbRjMgZ29ijoMZ6X7Xoq_fyiQSexCJq_PyxS8YiYjP9MUvIgEAUgSNlutnajBhx9VFtWmxsWsE9DUBkcc-pKcjwFIW68j8adsQT8eo0Ug6KB8GRkktsZLVRwR2bfdyMNHuUxI-lZoq4mhGkJZZuHZqkDSk6d-eekZrsDUB7WhhZdHpB5aZLp0SSF5oxhvXPw&e=1633674314&fl=&r=f2962b20-f718-4522-a3df-5dda50ff9c1f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PfgUi8wy35XvxAVMzOyr2U_zZ4s",
+    "notes" : "",
+    "icon_glyph" : 61565,
+    "certificate_expiration" : "Sun, 06 Nov 2022 21:15:12 -0800",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Name: Bulk64Archive Description: Bulk base 64 encode files & archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility ---"
+  },
+  {
+    "description" : "SiriRingtone SiriRingtone allows you to generate custom announcement ringtones to assign them in your ringtone settings for different types of notifications, a contact call &/or text announcements. ---",
+    "color" : "#00CBDF",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/siriringtonegenerator/siriringtonegenerator.html",
+    "shortcuts_version" : "1144.1.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.html",
+    "link" : "https://www.icloud.com/shortcuts/663ae630019f4c80b1a552d720e2daa0",
+    "release" : "Sat, 16 Oct 2021 10:09:47 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.png",
+    "start_color" : 1440408063,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Sat, 16 Oct 2021 10:07:37 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "category" : [
+      "Productivity",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "SiriRingtoneGenerator",
+    "auuid" : "80D1F78F-AABA-47D7-A840-A04A1F6870DB",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.siriringtonegenerator",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/Afw_HY2w3LhYq2iYIzaFGh1fTru4/${f}?o=AhkgpYUte-bTh33eKfQjPuutwQTgnEr_SNH3CZVmZaods_AEf-lrmFnhqL6doIexhg&v=1&x=3&a=CAoglnD_v6w9wDfJa02JUTgt7zvNuchIU3epGs0p11CRjvASexCy9cvQyC8YstKn0sgvIgEAUgRfTru4ajAuL49G_kSxpqy-gwBn9Md33DobphzVR1s6hBgsRY6fr5A436fT1TsgIk2NYriscMJyMCL8UB5eJhqJHah6qaY9lDdy6kzEjopzSbldx68y0ZHIIpCULi50cU_I1xy7b9hUvQ&e=1634407672&fl=&r=355ad07d-c8e0-42a3-9fca-ac14d75c0507-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TAClqdijTYRecSESuaqYFtGPsm4",
+    "notes" : "",
+    "icon_glyph" : 61440,
+    "certificate_expiration" : "Tue, 15 Nov 2022 08:57:46 -0800",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "5.5 MB"
+  },
+  {
+    "description" : "Shortcut NamennA simple shortcut menu template",
+    "color" : "#BB7AE3",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/simple-template/simple-template.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/simple-template.html",
+    "link" : "https://www.icloud.com/shortcuts/80a1d7e3006a47b0a9550032041f3f6f",
+    "release" : "Sun, 26 Sep 2021 15:00:40 -0500",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/simple-template.png",
+    "start_color" : 3679049983,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Sun, 26 Sep 2021 14:56:20 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "category" : [
+      "Development Tools"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Simple Template",
+    "auuid" : "92B85B46-362E-4369-BDDD-E3E234C30380",
+    "version" : "1.0.0",
+    "id" : "io.bustl.cutz.featured.simple-template",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZEGLN8W0FH2NXvExJU2_RsS3qkU/${f}?o=Ai5mSjpOsakbeavb74uZ6JtilLkAGQUQF0L7Oglj4O-zPxDqPDgll8ZglKW7_ZXktw&v=1&x=3&a=CAog3DFNlqF3DbMVX0lfVAze-mLldJh0imB0WMDpNImtkc0SexDvpbmdwi8Y74KVn8IvIgEAUgQS3qkUajDkztIVC5zgkYe6ylf6-HEtaABq9sOzKA_ZLQZVRpTuzWO0HMuByLTmhyXCmtwRvRdyMLZAaM2HZl7SSZ81tt_MDFrqFKidGR5UOLWRSkl5RwDJO6r2BEiqMQxOViLlwAoGYA&e=1632689799&fl=&r=93a0adc5-4606-4095-a30b-da045c7a7aa2-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=XeF313Hbf01Xo7DeT4W41nOovYA",
+    "notes" : "Test publish",
+    "icon_glyph" : 59849,
+    "certificate_expiration" : "Wed, 26 Oct 2022 14:46:36 -0500",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "8 KB"
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/mealtimers/mealtimers.html",
     "shortcuts_version" : "1145.7.2.1",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/mealtimers.html",
     "link" : "https://www.icloud.com/shortcuts/225c056218054975a2cf76a817990419",
     "release" : "Wed, 15 Dec 2021 14:29:10 -0800",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "18 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/mealtimers.png",
     "start_color" : 4282601983,
@@ -810,17 +810,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "18 KB"
+    "description" : "MealTimers During the holidays you may be prepping multiple items at the same time.  The clock app only runs 1 timer at a time. This shortcuts allows you to setup multiple timers & title them by the item you're prepping - so when it goes off, it will appear the name of item that is done. ---"
   },
   {
-    "file_size" : "3 KB",
+    "description" : "Send Team A Message Smart group messaging. Spare your team the pains of group text.  Perfect for notices, alerts, & non-dialogue communication. ---",
     "color" : "#44C85E",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/send-team-a-message/send-team-a-message.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.html",
     "link" : "https://www.icloud.com/shortcuts/3ca3ac8e202e45c8865873529e8f2f18",
     "release" : "Mon, 03 Jan 2022 11:33:41 -0800",
-    "description" : "Send Team A Message Smart group messaging. Spare your team the pains of group text.  Perfect for notices, alerts, & non-dialogue communication. ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.png",
     "start_color" : 4292093695,
@@ -856,21 +858,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "3 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "15 KB",
     "color" : "#4A69C6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/find-that-emoji/find-that-emoji.html",
     "shortcuts_version" : "1125.1",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.html",
     "link" : "https://www.icloud.com/shortcuts/197379a0374446d7b5009dae7e0720b9",
     "release" : "Thu, 06 Jan 2022 16:19:16 -0800",
-    "file_size" : "15 KB",
+    "description" : "Find that emoji Find/Define emojis by word description or emoji image, promoting clear communication. ---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.png",
     "start_color" : 946986751,
@@ -906,19 +904,21 @@
         "about:blank"
       ]
     },
-    "description" : "Find that emoji Find/Define emojis by word description or emoji image, promoting clear communication. ---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Definition Presents the definition found in your set dictionaries.  To update dictionaries, go to settings:general:dictionary:select all applicable dictionaries. ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#12B4F6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/definition/definition.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/definition.html",
     "link" : "https://www.icloud.com/shortcuts/8c8b520cc738429096289f1a8628dfcc",
     "release" : "Thu, 06 Jan 2022 16:41:26 -0800",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "2 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/definition.png",
     "start_color" : 463140863,
@@ -954,17 +954,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "2 KB"
+    "description" : "Definition Presents the definition found in your set dictionaries.  To update dictionaries, go to settings:general:dictionary:select all applicable dictionaries. ---"
   },
   {
-    "file_size" : "1 KB",
+    "description" : "Dictate Dictate in any language to text.  ---",
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/dictate/dictate.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/dictate.html",
     "link" : "https://www.icloud.com/shortcuts/73eba4e2479040f38cf4e29002ef8543",
     "release" : "Thu, 06 Jan 2022 16:53:16 -0800",
-    "description" : "Dictate Dictate in any language to text.  ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/dictate.png",
     "start_color" : 4282601983,
@@ -1000,21 +1002,19 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "1 KB"
   },
   {
-    "description" : "Text2Audio Convert text into spoken audio.  ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/text2audio/text2audio.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/text2audio.html",
     "link" : "https://www.icloud.com/shortcuts/97700b98610448b7926e280ebe93b25c",
     "release" : "Thu, 06 Jan 2022 17:03:02 -0800",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "2 KB",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/text2audio.png",
     "start_color" : 4282601983,
@@ -1050,17 +1050,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "2 KB"
+    "description" : "Text2Audio Convert text into spoken audio.  ---"
   },
   {
-    "file_size" : "2 KB",
+    "description" : "Zip2Email Zip any file & send it in an email.  Great for large files or multiple files. ---",
     "color" : "#4A69C6",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/zip2email/zip2email.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/zip2email.html",
     "link" : "https://www.icloud.com/shortcuts/4dd8963c20934d20bcbdf04c3373d881",
     "release" : "Thu, 06 Jan 2022 17:24:05 -0800",
-    "description" : "Zip2Email Zip any file & send it in an email.  Great for large files or multiple files. ---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/zip2email.png",
     "start_color" : 946986751,
@@ -1096,21 +1098,17 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "2 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "8 KB",
     "color" : "#F26369",
     "source" : "https://Cutz.Bustl.io/featured/shortcuts/availability/availability.html",
     "shortcuts_version" : "1145.8",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/availability.html",
     "link" : "https://www.icloud.com/shortcuts/f7b5100eb2a14070ac1a23b7f0322eca",
     "release" : "Thu, 06 Jan 2022 18:01:40 -0800",
-    "file_size" : "8 KB",
+    "description" : "Availability Share your availability time slots for a set day.  Stop the madning back & forth. ---",
     "integrity" : true,
     "icon" : "https://Cutz.Bustl.io/featured/depiction/availability.png",
     "start_color" : 4282601983,
@@ -1146,6 +1144,56 @@
         "about:blank"
       ]
     },
-    "description" : "Availability Share your availability time slots for a set day.  Stop the madning back & forth. ---"
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#4A69C6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/translate/translate.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/translate.html",
+    "link" : "https://www.icloud.com/shortcuts/2bb674d10ad946e3a52ec5b87b77ff62",
+    "release" : "Thu, 06 Jan 2022 19:17:05 -0800",
+    "file_size" : "2 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/translate.png",
+    "start_color" : 946986751,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 19:15:38 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Lifestyle",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Translate",
+    "auuid" : "BA912FE4-3D6C-4AF2-9C0E-252A4F50DC07",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.translate",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/Aceik1uMEB2A476XcYiZ7eSJI1Sy/${f}?o=AgNv6aXO7AtBTsPs3cyXLuJ1Z_z04lBnz8Woahrh05a_oMXRjDCyE7sstWY-6fQcsQ&v=1&x=3&a=CAog2sb5OhpfGmEB6buAUOmjcQqN_gL4-Iq3Pf3c_FLndn4SexDi16WU4y8Y4rSBluMvIgEAUgSJI1SyajD8ZnvKkHLFVWazvm3odVXyMiogapIbR9vusV59Pimz2f2zPMGh2Wi3bEZRiywktHdyMA2-3pjaj_F2bICeORszYT1YV2_of6wa-Tvi8n_gVmaxaqvcrRO3lUKzY1W-uUm_jg&e=1641528973&fl=&r=aa261105-25c1-4672-ba65-84aed408ed9f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=1MYYnWxcGQJN-FD21BRhg0b6JYw",
+    "notes" : "",
+    "icon_glyph" : 59729,
+    "certificate_expiration" : "Sun, 05 Feb 2023 19:06:11 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Translate Translate any text to English.  Auto detects input language translated to english by default.  ---"
   }
 ]
