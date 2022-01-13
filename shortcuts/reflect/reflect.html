@@ -178,91 +178,111 @@ span.magic {
 ]
 </div></div>
 
-<button class="button gDocuments" id="m0">
-0 Comment</button>
+<button class="gDocuments" id="m0">
+0 Get Text from <span class="box"><span class="var"><b>[CurrentDate</b><b>]</b></span></span></button>
+<button class="button gScripting" id="m1">
+1 Dictionary</button>
+	<div class="content">
+		<div class="col2">{
+   "start": {
+      "start": "<span class="magic" onclick="magictap(0)"><b>[0 Text</b><b>]</b></span>",
+      "name": "Reflect"
+   },
+   "version": {
+      "1.0.0": "first publish",
+      "1.0.1": "added global variable value for previous day reflect to be recalled in daily 1% reminder "
+   }
+}</div></div>
+<button class="gVariable" id="m2">
+2 Set Variable <span class="box">start</span> to <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Dictionary</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m3">
+3 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">Reflect
 This shortcut asks you five questions to review your working day and set goals for the next day. It stores answers in Notes to review how you have been doing across a period of time. The last two questions set reminders for the next day.
 ---
-{"name":"Reflect","auuid":"2D6ED49F-1A2F-460B-873B-2B8A3575408F","version":"1"}</div></div>
-<button class="button gScripting" id="m1">
-1 List</button>
+{"name":"Reflect","auuid":"2D6ED49F-1A2F-460B-873B-2B8A3575408F","version":"1-0-1"}</div></div>
+<button class="button gScripting" id="m4">
+4 List</button>
 	<div class="content">
 		<div class="col2">["🥳 Great",
 "😀 OK",
 "😤 Frustrated",
-"😫 Bad"]</div></div>
-<button class="button gScripting" id="m2">
-2 Choose from List <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 List</b><b>]</b></span></span></button>
+"😫 Bad",
+"😕 Mehh",
+"😭 Sad",
+"🤩 Excited"]</div></div>
+<button class="button gScripting" id="m5">
+5 Choose from List <span class="box"><span class="magic" onclick="magictap(4)"><b>[4 List</b><b>]</b></span></span></button>
 	<div class="content">
 		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
 			<div class="col2">How did you feel today?</div></div></div>
-<button class="gVariable" id="m3">
-3 Set Variable <span class="box">Feeling</span> to <span class="box"><span class="magic" onclick="magictap(2)"><b>[2 Chosen Item</b><b>]</b></span></span></button>
-<button class="button gScripting" id="m4">
-4 Ask for Text Input</button>
+<button class="gVariable" id="m6">
+6 Set Variable <span class="box">Feeling</span> to <span class="box"><span class="magic" onclick="magictap(5)"><b>[5 Chosen Item</b><b>]</b></span></span></button>
+<button class="button gScripting" id="m7">
+7 Ask for Text Input</button>
 	<div class="content">
 		<div class="row"><div class="col1">AskActionPrompt</div>
 			<div class="col2">Why did you feel <span class="var"><b>[Feeling</b><b>]</b></span>?</div></div></div>
-<button class="button gScripting" id="m5">
-5 Ask for Text Input <b>&nbsp; ➔ Learned</b></button>
+<button class="button gScripting" id="m8">
+8 Ask for Text Input <b>&nbsp; ➔ Learned</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">AskActionPrompt</div>
 			<div class="col2">What did you learn today?</div></div></div>
-<button class="button gScripting" id="m6">
-6 Ask for Text Input <b>&nbsp; ➔ Did Well</b></button>
+<button class="button gScripting" id="m9">
+9 Ask for Text Input <b>&nbsp; ➔ Did Well</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">AskActionPrompt</div>
 			<div class="col2">What did you do well?</div></div></div>
-<button class="button gScripting" id="m7">
-7 Ask for Text Input <b>&nbsp; ➔ What to Do</b></button>
+<button class="button gScripting" id="m10">
+10 Ask for Text Input <b>&nbsp; ➔ What to Do</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">AskActionPrompt</div>
 			<div class="col2">What do you need to do tomorrow?</div></div></div>
-<button class="button gScripting" id="m8">
-8 Ask for Text Input <b>&nbsp; ➔ Who to Help</b></button>
+<button class="button gScripting" id="m11">
+11 Ask for Text Input <b>&nbsp; ➔ Who to Help</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">AskActionPrompt</div>
 			<div class="col2">Who can you help tomorrow?</div></div></div>
-<button class="button gDocuments" id="m9">
-9 Text</button>
+<button class="button gDocuments" id="m12">
+12 Text <b>&nbsp; ➔ Day in review</b></button>
 	<div class="content">
 		<div class="col2"><span class="var"><b>[CurrentDate</b><b>]</b></span>
 
-- Felt: <span class="var"><b>[Feeling</b><b>]</b></span> | <span class="magic" onclick="magictap(4)"><b>[4 Provided Input</b><b>]</b></span>
-- Learned: <span class="magic" onclick="magictap(5)"><b>[5 Learned</b><b>]</b></span>
-- Did well: <span class="magic" onclick="magictap(6)"><b>[6 Did Well</b><b>]</b></span>
-- What to do tomorrow: <span class="magic" onclick="magictap(7)"><b>[7 What to Do</b><b>]</b></span>
-- Who to help tomorrow: <span class="magic" onclick="magictap(8)"><b>[8 Who to Help</b><b>]</b></span>
+- Felt: <span class="var"><b>[Feeling</b><b>]</b></span> | <span class="magic" onclick="magictap(7)"><b>[7 Provided Input</b><b>]</b></span>
+- Learned: <span class="magic" onclick="magictap(8)"><b>[8 Learned</b><b>]</b></span>
+- Did well: <span class="magic" onclick="magictap(9)"><b>[9 Did Well</b><b>]</b></span>
+- What to do tomorrow: <span class="magic" onclick="magictap(10)"><b>[10 What to Do</b><b>]</b></span>
+- Who to help tomorrow: <span class="magic" onclick="magictap(11)"><b>[11 Who to Help</b><b>]</b></span>
 __________________________________________________</div></div>
-<button class="button gLoop nonbottom" id="m10">
-10 If <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 What to Do</b><b>]</b></span></span> <span class="box">has any value</span></button>
-	<div class="content contentloop">
-<button class="button  inside" id="m11">
-11 Add New Reminder <span class="box">End of Day Review: <span class="magic" onclick="magictap(7)"><b>[7 What to Do</b><b>]</b></span></span> to <span class="box">Work</span> with <span class="box">Alert</span></button>
-	<div class="content inside">
-		<div class="row"><div class="col1">AlertCustomTime</div>
-			<div class="col2">Tomorrow</div></div></div></div>
-<button class="gLoop nontop" id="m12">
-12 End If</button>
 <button class="button gLoop nonbottom" id="m13">
-13 If <span class="box"><span class="magic" onclick="magictap(8)"><b>[8 Who to Help</b><b>]</b></span></span> <span class="box">has any value</span></button>
+13 If <span class="box"><span class="magic" onclick="magictap(10)"><b>[10 What to Do</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop">
 <button class="button  inside" id="m14">
-14 Add New Reminder <span class="box">Help: <span class="magic" onclick="magictap(8)"><b>[8 Who to Help</b><b>]</b></span></span> to <span class="box">Work</span> with <span class="box">Alert</span></button>
+14 Add New Reminder <span class="box">End of Day Review: <span class="magic" onclick="magictap(10)"><b>[10 What to Do</b><b>]</b></span></span> to <span class="box">Work</span> with <span class="box">Alert</span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">AlertCustomTime</div>
 			<div class="col2">Tomorrow</div></div></div></div>
 <button class="gLoop nontop" id="m15">
 15 End If</button>
-<button class="button gDocuments" id="m16">
-16 Text</button>
+<button class="button gLoop nonbottom" id="m16">
+16 If <span class="box"><span class="magic" onclick="magictap(11)"><b>[11 Who to Help</b><b>]</b></span></span> <span class="box">has any value</span></button>
+	<div class="content contentloop">
+<button class="button  inside" id="m17">
+17 Add New Reminder <span class="box">Help: <span class="magic" onclick="magictap(11)"><b>[11 Who to Help</b><b>]</b></span></span> to <span class="box">Work</span> with <span class="box">Alert</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">AlertCustomTime</div>
+			<div class="col2">Tomorrow</div></div></div></div>
+<button class="gLoop nontop" id="m18">
+18 End If</button>
+<button class="button gDocuments" id="m19">
+19 Text</button>
 	<div class="content">
 		<div class="col2">🥳 🧭 Day in Review</div></div>
-<button class="gVariable" id="m17">
-17 Set Variable <span class="box">Note Name</span> to <span class="box"><span class="magic" onclick="magictap(16)"><b>[16 Text</b><b>]</b></span></span></button>
-<button class="button " id="m18">
-18 Find Notes</button>
+<button class="gVariable" id="m20">
+20 Set Variable <span class="box">Note Name</span> to <span class="box"><span class="magic" onclick="magictap(19)"><b>[19 Text</b><b>]</b></span></span></button>
+<button class="button " id="m21">
+21 Find Notes</button>
 	<div class="content">
 		<div class="row"><div class="col1">ContentItemLimitEnabled</div>
 			<div class="col2">true</div></div>
@@ -270,22 +290,50 @@ __________________________________________________</div></div>
 			<div class="col2">1</div></div>
 		<div class="row"><div class="col1">ContentItemFilter</div>
 			<div class="col2">Name contains <span class="var"><b>[Note Name</b><b>]</b></span></div></div></div>
-<button class="button gLoop nonbottom" id="m19">
-19 If <span class="box"><span class="magic" onclick="magictap(18)"><b>[18 Notes</b><b>]</b></span></span> <span class="box">does not have any value</span></button>
+<button class="button gLoop nonbottom" id="m22">
+22 If <span class="box"><span class="magic" onclick="magictap(21)"><b>[21 Notes</b><b>]</b></span></span> <span class="box">does not have any value</span></button>
 	<div class="content contentloop">
 		<div class="row"><div class="col1">NumberValue</div>
 			<div class="col2">1</div></div>
-<button class="button  inside" id="m20">
-20 Create Note with <span class="box"><span class="var"><b>[Note Name</b><b>]</b></span></span></button>
+<button class="button  inside" id="m23">
+23 Create Note with <span class="box"><span class="var"><b>[Note Name</b><b>]</b></span></span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">ShowWhenRun</div>
 			<div class="col2">false</div></div></div></div>
-<button class="gLoop nontop" id="m21">
-21 End If <b>&nbsp; ➔ Note</b></button>
-<button class="" id="m22">
-22 Append <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Text</b><b>]</b></span></span> to Note <span class="box"><span class="magic" onclick="magictap(21)"><b>[21 Note</b><b>]</b></span></span></button>
-<button class="" id="m23">
-23 Show Note <span class="box"><span class="magic" onclick="magictap(22)"><b>[22 Appended Note</b><b>]</b></span></span></button>
+<button class="gLoop nontop" id="m24">
+24 End If <b>&nbsp; ➔ Note</b></button>
+<button class="" id="m25">
+25 Append <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 Day in review</b><b>]</b></span></span> to Note <span class="box"><span class="magic" onclick="magictap(24)"><b>[24 Note</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m26">
+26 com.alexhay.ToolboxProForShortcuts.GlobalVariablesIntent</button>
+	<div class="content">
+		<div class="row"><div class="col1">setVariableValue</div>
+			<div class="col2"><span class="magic" onclick="magictap(12)"><b>[12 Day in review</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">setVariableKey</div>
+			<div class="col2">Previous day reflect</div></div>
+		<div class="row"><div class="col1">mode</div>
+			<div class="col2"><span class="magic" onclick="magictap(25)"><b>[25 Appended Note</b><b>]</b></span></div></div></div>
+<button class="button gScripting" id="m27">
+27 Dictionary</button>
+	<div class="content">
+		<div class="col2">{
+   "tracker": {
+      "start": "<span class="var"><b>[start</b>.start.start<b>]</b></span>",
+      "end": "<span class="var"><b>[CurrentDate</b>{\"Date Style\":\"Short\",\"WFISO8601IncludeTime\":false,\"Time Style\":\"Medium\"}<b>]</b></span>",
+      "name": "<span class="var"><b>[start</b>.start.name<b>]</b></span>",
+      "date": "<span class="var"><b>[CurrentDate</b>{\"Date Style\":\"Medium\",\"WFISO8601IncludeTime\":false,\"Time Style\":\"None\"}<b>]</b></span>",
+      "user": "2a56dcc7-17e8-4b47-b736-c8a0575fd8bf",
+      "data": "<span class="magic" onclick="magictap(25)"><b>[25 Appended Note</b><b>]</b></span>",
+      "cuuid": "2a56dcc7-17e8-4b47-b736-c8a0575fd8bf"
+   }
+}</div></div>
+<button class="button " id="m28">
+28 Run Shortcut <span class="box">ServerTracker</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Input</div>
+			<div class="col2"><span class="magic" onclick="magictap(27)"><b>[27 Dictionary</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">Workflow</div>
+			<div class="col2">{"workflowIdentifier":"3E35EDE4-ABA4-463B-977D-BF7FEB59998B","isSelf":false,"workflowName":"ServerTracker"}</div></div></div>
 <script>
 for (b of document.getElementsByClassName('button')) {
 	b.addEventListener('click', function() {
