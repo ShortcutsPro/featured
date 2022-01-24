@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="viewport-fit=cover,initial-scale=1,minimum-scale=1, maximum-scale=1,width=device-width,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+<title>Just Read It</title>
+<style>
+      @charset "utf-8"; 
+      html { 
+        font-size:100%;
+        font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+      }     
+      body {
+        margin: 0;
+        padding: 1em
+      }
+      @media (max-device-width: 480px) { 
+      } 
+      @media (min-device-width: 481px) { 
+         body {
+           margin:auto;
+           max-width:600px;
+         } 
+      }
+      img {
+         max-width: 90%;
+         object-fit: cover;
+      }
+      body {
+         margin: 1em;
+         background-size: cover;
+         padding-left: env(safe-area-inset-left);
+         padding-right: env(safe-area-inset-right);
+         padding-top: env(safe-area-inset-top);
+      }
+      h1 {
+        font-family: -apple-system;
+        color: black;
+        font-weight: 800;
+        font-size: 2em;
+      }
+      h2 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.7em;
+      }
+      h3, h4 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.3em;
+      }
+      p, ul {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+      }
+      blockquote {
+        font-family: -apple-system;
+        font-weight: 300;
+        color: black;
+        font-size: 1em;
+        font-style: italic;
+      }
+      ol {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+        margin: 15px;
+     }
+    a {
+      color: navy;
+    }
+  </style>
+</head>
+<body>
+
+<h2><a href="data:image/png;base64,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"><img src="data:image/png;base64,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" alt="Just Read It" /></a> <a href="https://Cutz.Bustl.io/featured/depiction/just-read-it.html">Just Read It</a></h2>
+<h3>Just Read It Snap a picute of any text document to have your phone read it for y…</h3>
+<p><em>Author: <a href="about:blank"><strong>anonymous</strong></a></em></p>
+<p>Photo &amp; Video, Productivity</p>
+
+<hr />
+<h3>Just Read It Snap a picute of any text document to have your phone read it for you.  Trigger this shortcut after snapping a picturr &amp; selecting Just Read It in the share sheet menu, or trigger the shortcut &amp; it will prompt you to select an image from your library. ---</h3>
+<ul>
+<li>Designed for iOS15</li>
+<li>Last updated on Jan 23, 2022 at 9:57 PM</li>
+</ul>
+<p><a href="https://Cutz.Bustl.io/featured/shortcuts/just-read-it/just-read-it.html"><strong>View contents.</strong></a></p>
+
+
+</body>
+</html>
