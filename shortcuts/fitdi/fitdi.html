@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Fitdi</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Fitdi</button>
+<div class="content" style="display:none"><div class="col2">"WFQuickActionSurfaces": [],
+"WFWorkflowClientVersion": "1145.11",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": false,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 4251333119,
+   "WFWorkflowIconGlyphNumber": 59723
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFAppStoreAppContentItem",
+   "WFArticleContentItem",
+   "WFContactContentItem",
+   "WFDateContentItem",
+   "WFEmailAddressContentItem",
+   "WFFolderContentItem",
+   "WFGenericFileContentItem",
+   "WFImageContentItem",
+   "WFiTunesProductContentItem",
+   "WFLocationContentItem",
+   "WFDCMapsLinkContentItem",
+   "WFAVAssetContentItem",
+   "WFPDFContentItem",
+   "WFPhoneNumberContentItem",
+   "WFRichTextContentItem",
+   "WFSafariWebPageContentItem",
+   "WFStringContentItem",
+   "WFURLContentItem"
+],
+"WFWorkflowMinimumClientVersion": 900,
+"WFWorkflowMinimumClientVersionString": "900",
+"WFWorkflowOutputContentItemClasses": [],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">FitDi
+Get your summer beach bod with FitDi.  Don't leave it up to chance, just roll the die in FitDi.  5 daily randomly selected home workouts you can start today. FitDi rolls the dice and guides you through 5 daily exercises with sarcastic words of encouragement &amp; funny visual Gif examples.  There's 3 levels: beginner, intermediate, pro; total of 20 workouts at each level; ends with a FitDi fitness review auto generated &amp; saved in your notes app titled: 🤾 FitDi Fitness Review 😎.  It's not too late to achieve your 2023 life goals. 
+---
+{"name":"FitDi","auuid":"D26A5612-EB88-45EE-848E-24C76BDA12A3","version":"1"}</div></div>
+<button class="gDocuments" id="m1">
+1 Get Text from <span class="box"><span class="var"><b>[CurrentDate</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m2">
+2 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">workout:starter:reps,timer
+numbers:beginner,intermediate,pro:reps,timer
+settings:level:beginner,intermediate,pro
+settings:prompts:level</div></div>
+<button class="button " id="m3">
+3 Adjust Add Date <span class="box"><span class="var"><b>[CurrentDate</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Duration</div>
+			<div class="col2">"25" min</div></div></div>
+<button class="button " id="m4">
+4 Turn Do Not Disturb <span class="box">On</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">AssertionType</div>
+			<div class="col2">Time</div></div>
+		<div class="row"><div class="col1">Time</div>
+			<div class="col2"><span class="magic" onclick="magictap(3)"><b>[3 Adjusted Date</b><b>]</b></span></div></div></div>
+<button class="" id="m5">
+5 Set Volume to <span class="box">0.8251121044158936</span></button>
+<button class="button gScripting closed" id="m6">
+6 Dictionary</button>
+	<div class="content" style="display:none">
+		<div class="col2">{
+   "workout": {
+      "starter": {
+         "reps": [
+            "burpees",
+            "crunches",
+            "sit-ups",
+            "jump-ups",
+            "push-ups",
+            "squats",
+            "lunges",
+            "hip thrusts",
+            "dips",
+            "handstand walk-up",
+            "pull-ups",
+            "chin-ups",
+            "reverse leg crunches"
+         ],
+         "timer": [
+            "planks",
+            "arm circles",
+            "wall sits",
+            "side planks",
+            "mountain climbers",
+            "superman",
+            "jumping jacks"
+         ]
+      }
+   },
+   "numbers": {
+      "👶 beginner": {
+         "reps": [
+            5,
+            10,
+            15
+         ],
+         "timer": [
+            10,
+            15,
+            20
+         ]
+      },
+      "🧘 intermediate": {
+         "reps": [
+            20,
+            30,
+            40
+         ],
+         "timer": [
+            30,
+            45,
+            60
+         ]
+      },
+      "🤾 pro": {
+         "reps": [
+            25,
+            50,
+            100
+         ],
+         "timer": [
+            30,
+            60,
+            90
+         ]
+      }
+   },
+   "settings": {
+      "level": [
+         "👶 beginner",
+         "🧘 intermediate",
+         "🤾 pro"
+      ],
+      "prompts": {
+         "level": "what level are you?",
+         "option": [
+            "✅ yes",
+            "😬 maybe",
+            " 💩 do i have to?"
+         ],
+         "ready": "are you ready?",
+         "good": [
+            "great job! you're on your way to the best granny beach bod ever!!  Take  a 5 second break.",
+            "You are going to look ao good.  Take  a 5 second break.",
+            "That whole tub of ice cream will vanish in no time.   Take  a 5 second break.",
+            "If your x could see you now... Take  a 5 second break.",
+            "I grant you permission to a whole sleeve of oreo cookies after this workout is done.  Take  a 5 second break.",
+            "2023 is looking sexier already.  Take  a 5 second break.",
+            "Brush your shoulders off.  Take  a 5 second break."
+         ]
+      },
+      "server": true
+   },
+   "start": {
+      "start": "<span class="magic" onclick="magictap(1)"><b>[1 Text</b><b>]</b></span>",
+      "name": "FitDi"
+   }
+}</div></div>
+<button class="gVariable" id="m7">
+7 Set Variable <span class="box">Stack</span> to <span class="box"><span class="magic" onclick="magictap(6)"><b>[6 Dictionary</b><b>]</b></span></span></button>
+<button class="" id="m8">
+8 Vibrate Device</button>
+<button class="button gScripting" id="m9">
+9 Choose from List <span class="box"><span class="var"><b>[Stack</b>.settings.level<b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
+			<div class="col2"><span class="var"><b>[Stack</b>.settings.prompts.level<b>]</b></span></div></div></div>
+<button class="gVariable" id="m10">
+10 Set Variable <span class="box">Workout Level</span> to <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Chosen Item</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m11">
+11 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">User has chosen a level, the die will only pick reps &amp; timers from selected chosen level.</div></div>
+<button class="button gDocuments" id="m12">
+12 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲</div></div>
+<button class="" id="m13">
+13 Vibrate Device</button>
+<button class="button gScripting" id="m14">
+14 Choose from List <span class="box"><span class="var"><b>[Stack</b>.settings.prompts.option<b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
+			<div class="col2"><span class="var"><b>[Stack</b>.settings.prompts.ready<b>]</b></span>🎲🎲🎲</div></div></div>
+<button class="gVariable" id="m15">
+15 Set Variable <span class="box">Ready</span> to <span class="box"><span class="magic" onclick="magictap(14)"><b>[14 Chosen Item</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m16">
+16 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Picks a random workout to execute.</div></div>
+<button class="button gLoop nonbottom" id="m17">
+17 Repeat <span class="box">5</span> Times</button>
+	<div class="content contentloop">
+<button class="button  inside" id="m18">
+18 Show Notification</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">NotificationActionBody</div>
+			<div class="col2">Random workout generation in progress ⏳</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2">🎲🎲🎲</div></div></div>
+<button class="button gScripting inside" id="m19">
+19 Get Dictionary <span class="box">All Keys</span> in <span class="box"><span class="var"><b>[Stack</b>.workout.starter<b>]</b></span></span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">DictionaryKey</div>
+			<div class="col2">workout.starter</div></div></div>
+<button class="gScripting inside" id="m20">
+20 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(19)"><b>[19 Dictionary Value</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m21">
+21 Set Variable <span class="box">Type</span> to <span class="box"><span class="magic" onclick="magictap(20)"><b>[20 Item from List</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m22">
+22 Get Dictionary Value for <span class="box">workout.starter.<span class="magic" onclick="magictap(20)"><b>[20 Item from List</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Stack</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m23">
+23 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(22)"><b>[22 Dictionary Value</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m24">
+24 Set Variable <span class="box">Workout</span> to <span class="box"><span class="magic" onclick="magictap(23)"><b>[23 Item from List</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m25">
+25 Get Dictionary Value for <span class="box">numbers.<span class="var"><b>[Workout Level</b><b>]</b></span>.<span class="var"><b>[Type</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Stack</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m26">
+26 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(25)"><b>[25 Dictionary Value</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m27">
+27 Set Variable <span class="box">Numbers</span> to <span class="box"><span class="magic" onclick="magictap(26)"><b>[26 Item from List</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom inside" id="m28">
+28 If <span class="box"><span class="var"><b>[Type</b>’s Name<b>]</b></span></span> <span class="box">is</span> <span class="box">reps</span></button>
+	<div class="content contentloop dashed inside">
+<button class="button gDocuments inside" id="m29">
+29 Text</button>
+	<div class="content inside">
+		<div class="col2">Execute <span class="var"><b>[Numbers</b><b>]</b></span> <span class="var"><b>[Workout</b><b>]</b></span>.  Tap done when you completed this exercise.</div></div></div>
+<button class="button gLoop nonbottom nontop inside" id="m30">
+30 Otherwise</button>
+	<div class="content contentloop dashed inside">
+<button class="button gDocuments inside" id="m31">
+31 Text</button>
+	<div class="content inside">
+		<div class="col2">Execute <span class="var"><b>[Numbers</b><b>]</b></span> seconds of <span class="var"><b>[Workout</b><b>]</b></span>. Tap done when you completed this exercise.</div></div></div>
+<button class="gLoop nontop inside" id="m32">
+32 End If</button>
+<button class="button gDocuments inside" id="m33">
+33 Split Text <span class="box"><span class="magic" onclick="magictap(32)"><b>[32 If Result</b><b>]</b></span></span> by <span class="box">Custom</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">TextCustomSeparator</div>
+			<div class="col2">.</div></div></div>
+<button class="gScripting inside" id="m34">
+34 Get List First Item from <span class="box"><span class="magic" onclick="magictap(33)"><b>[33 Split Text</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m35">
+35 Add <span class="box"><span class="magic" onclick="magictap(34)"><b>[34 Item from List</b><b>]</b></span></span> to Variable <span class="box">Completed</span></button>
+<button class="button  inside" id="m36">
+36 Speak Text</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">SpeakTextPitch</div>
+			<div class="col2">1.3105380833148956</div></div>
+		<div class="row"><div class="col1">SpeakTextVoice</div>
+			<div class="col2">com.apple.ttsbundle.Ava-premium</div></div>
+		<div class="row"><div class="col1">SpeakTextRate</div>
+			<div class="col2">0.4641255736351013</div></div>
+		<div class="row"><div class="col1">SpeakTextWait</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">Text</div>
+			<div class="col2"><span class="magic" onclick="magictap(32)"><b>[32 If Result</b><b>]</b></span></div></div></div>
+<button class="button  inside" id="m37">
+37 Search Giphy</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">GiphyLimit</div>
+			<div class="col2">4</div></div>
+		<div class="row"><div class="col1">GiphyShowPicker</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">GiphyQuery</div>
+			<div class="col2">exercise example <span class="var"><b>[Workout</b><b>]</b></span></div></div></div>
+<button class="gScripting inside" id="m38">
+38 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(37)"><b>[37 GIFs</b><b>]</b></span></span></button>
+<button class="gDocuments inside" id="m39">
+39 Quick Look <span class="box"><span class="magic" onclick="magictap(38)"><b>[38 Item from List</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m40">
+40 Get Dictionary Value for <span class="box">settings.prompts.good</span> in <span class="box"><span class="var"><b>[Stack</b><b>]</b></span></span></button>
+<button class="gScripting inside" id="m41">
+41 Get List <span class="box">Random Item</span> from <span class="box"><span class="magic" onclick="magictap(40)"><b>[40 Dictionary Value</b><b>]</b></span></span></button>
+<button class="button  inside" id="m42">
+42 Speak Text</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">SpeakTextPitch</div>
+			<div class="col2">1.4699769020080566</div></div>
+		<div class="row"><div class="col1">SpeakTextVoice</div>
+			<div class="col2">com.apple.ttsbundle.Ava-premium</div></div>
+		<div class="row"><div class="col1">SpeakTextRate</div>
+			<div class="col2">0.5192743539810181</div></div>
+		<div class="row"><div class="col1">SpeakTextWait</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">Text</div>
+			<div class="col2"><span class="magic" onclick="magictap(41)"><b>[41 Item from List</b><b>]</b></span></div></div></div>
+<button class="button  inside" id="m43">
+43 Show Notification</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">NotificationActionBody</div>
+			<div class="col2">👏👏👏👏👏👏👏👏👏👏👏👏👏👏</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2">🎲🎲🎲</div></div></div>
+<button class=" inside" id="m44">
+44 Wait <span class="box">17</span> seconds</button></div>
+<button class="gLoop nontop" id="m45">
+45 End Repeat Times <span class="magic" onclick="magictap(17)">17</span></button>
+<button class="gVariable" id="m46">
+46 Get Variable <span class="box"><span class="var"><b>[Completed</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m47">
+47 Text</button>
+	<div class="content">
+		<div class="col2">🤾 FitDi Fitness Review 😎</div></div>
+<button class="button " id="m48">
+48 Find Notes</button>
+	<div class="content">
+		<div class="row"><div class="col1">ContentItemFilter</div>
+			<div class="col2">Name contains <span class="magic" onclick="magictap(47)"><b>[47 Text</b><b>]</b></span></div></div></div>
+<button class="button gLoop nonbottom" id="m49">
+49 If <span class="box"><span class="magic" onclick="magictap(48)"><b>[48 Notes</b><b>]</b></span></span> <span class="box">does not have any value</span></button>
+	<div class="content contentloop">
+<button class="button  inside" id="m50">
+50 Create Note with <span class="box"><span class="magic" onclick="magictap(47)"><b>[47 Text</b><b>]</b></span></span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">IntentAppDefinition</div>
+			<div class="col2">{"BundleIdentifier":"com.apple.mobilenotes","Name":"Notes","TeamIdentifier":"0000000000"}</div></div>
+		<div class="row"><div class="col1">ShowWhenRun</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">NoteGroup</div>
+			<div class="col2">{"Identifier":"x-coredata://642691B9-692A-4436-B053-9F70BED88184/ICFolder/p3?accountIdentifier=D7D4EB0D-073E-4EFB-AEC4-478393B93EA7","DisplayString":"Notes"}</div></div></div></div>
+<button class="gLoop nontop" id="m51">
+51 End If <b>&nbsp; ➔ Fitness Review </b></button>
+<button class="button gDocuments" id="m52">
+52 Text <b>&nbsp; ➔ FitDi Review</b></button>
+	<div class="content">
+		<div class="col2">---
+🎲🎲🎲
+
+On  <span class="var"><b>[CurrentDate</b><b>]</b></span> you completed on level <span class="var"><b>[Workout Level</b><b>]</b></span>:
+
+<span class="var"><b>[Completed</b><b>]</b></span>
+
+Your readiness level response was:
+<span class="var"><b>[Ready</b><b>]</b></span>
+
+👏👏👏</div></div>
+<button class="" id="m53">
+53 Append <span class="box"><span class="magic" onclick="magictap(52)"><b>[52 FitDi Review</b><b>]</b></span></span> to Note <span class="box"><span class="magic" onclick="magictap(51)"><b>[51 Fitness Review </b><b>]</b></span></span></button>
+<button class="gScripting" id="m54">
+54 Get Dictionary Value for <span class="box">settings.server</span> in <span class="box"><span class="var"><b>[Stack</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m55">
+55 If <span class="box"><span class="magic" onclick="magictap(54)"><b>[54 Dictionary Value</b>’s Name<b>]</b></span></span> <span class="box">is</span> <span class="box">Yes</span></button>
+	<div class="content contentloop">
+<button class="button gScripting inside" id="m56">
+56 Dictionary</button>
+	<div class="content inside">
+		<div class="col2">{
+   "tracker": {
+      "start": "<span class="var"><b>[Stack</b>.start.start<b>]</b></span>",
+      "end": "<span class="var"><b>[CurrentDate</b>{\"Date Style\":\"Short\",\"WFISO8601IncludeTime\":false,\"Time Style\":\"Medium\"}<b>]</b></span>",
+      "name": "<span class="var"><b>[Stack</b>.start.name<b>]</b></span>",
+      "date": "<span class="var"><b>[CurrentDate</b>{\"Date Style\":\"Medium\",\"WFISO8601IncludeTime\":false,\"Time Style\":\"None\"}<b>]</b></span>",
+      "user": "2a56dcc7-17e8-4b47-b736-c8a0575fd8bf",
+      "data": "<span class="magic" onclick="magictap(52)"><b>[52 FitDi Review</b><b>]</b></span>",
+      "cuuid": "2a56dcc7-17e8-4b47-b736-c8a0575fd8bf"
+   }
+}</div></div>
+<button class="button  inside" id="m57">
+57 Get Contents of URL <span class="box">https://api.pushcut.io/kA71x2fcV6TzpCXpTRE1W/notifications/Bustl%20Triggered</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">RequestVariable</div>
+			<div class="col2"><span class="var"><b>[Renamed Item</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">JSONValues</div>
+			<div class="col2">{
+   "input": "<span class="magic" onclick="magictap(56)"><b>[56 Dictionary</b>.tracker<b>]</b></span>"
+}</div></div>
+		<div class="row"><div class="col1">HTTPHeaders</div>
+			<div class="col2">{
+   "API-Key": "6IGoAQeW39X85MpBXf1OXqUB",
+   "Content-Type": "application/json"
+}</div></div>
+		<div class="row"><div class="col1">ShowHeaders</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">HTTPMethod</div>
+			<div class="col2">POST</div></div>
+		<div class="row"><div class="col1">HTTPBodyType</div>
+			<div class="col2">JSON</div></div>
+		<div class="row"><div class="col1">FormValues</div>
+			<div class="col2">{}</div></div></div></div>
+<button class="gLoop nontop" id="m58">
+58 End If</button>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
