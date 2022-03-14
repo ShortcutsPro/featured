@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>My Last Shortcut</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">My Last Shortcut</button>
+<div class="content" style="display:none"><div class="col2">"WFQuickActionSurfaces": [],
+"WFWorkflowClientVersion": "1146.11.1",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": false,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 463140863,
+   "WFWorkflowIconGlyphNumber": 61458
+},
+"WFWorkflowImportQuestions": [
+   {
+      "Category": "Parameter",
+      "ParameterKey": "WFTextActionText",
+      "ActionIndex": <span class="magic" onclick="magictap(2)"><b>2</b></span>,
+      "Text": "Enter your Shortcut folders here separated by (;). Any shortcut folder not listed will not be backed up, this can be edited or updated in the shortcut settings.",
+      "DefaultValue": "Folder1;Folder2;Folder3;"
+   },
+   {
+      "Category": "Parameter",
+      "ParameterKey": "WFSaveFileOverwrite",
+      "ActionIndex": <span class="magic" onclick="magictap(9)"><b>9</b></span>,
+      "Text": "Turn this setting off if you wish to save each version. ",
+      "DefaultValue": true
+   }
+],
+"WFWorkflowInputContentItemClasses": [],
+"WFWorkflowMinimumClientVersion": 1106,
+"WFWorkflowMinimumClientVersionString": "1106",
+"WFWorkflowOutputContentItemClasses": [],
+"WFWorkflowTypes": [
+   "Watch"
+]
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Text</button>
+	<div class="content">
+		<div class="col2">My Last Shortcut
+My last shortcut is a redundancy back up in case iCloud backup fails. Also, it's a great way to save versions if you select override if exist off.
+---
+{"name":"My Last Shortcut","auuid":"BAFC8D49-08C5-4E4A-B3DC-C1096D2D86FE","version":"1"}</div></div>
+<button class="button gDocuments" id="m1">
+1 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Must enter all the folders that contain shortcuts you wish be saved in file formart .shortcuts
+During configuration you should have entered your folders &amp; they will appear in the text box below.  If they do not appear or wish to update the list, please go to settings ↗️(🔵), setup, customize shortcuts.</div></div>
+<button class="button gDocuments" id="m2">
+2 Text</button>
+	<div class="content">
+		<div class="col2">Folder1;Folder2;Folder3;</div></div>
+<button class="button gDocuments" id="m3">
+3 Split Text <span class="box"><span class="magic" onclick="magictap(2)"><b>[2 Text</b><b>]</b></span></span> by <span class="box">Custom</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">TextCustomSeparator</div>
+			<div class="col2">;</div></div></div>
+<button class="button gLoop nonbottom" id="m4">
+4 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Split Text</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m5">
+5 Text <b>&nbsp; ➔ Path</b></button>
+	<div class="content inside">
+		<div class="col2">/Last Hero/<span class="var"><b>[Repeat Item</b><b>]</b></span>/</div></div>
+<button class="button  inside" id="m6">
+6 Create Folder</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">FilePath</div>
+			<div class="col2"><span class="magic" onclick="magictap(5)"><b>[5 Path</b><b>]</b></span></div></div></div>
+<button class="button  inside" id="m7">
+7 Get My Shortcuts</button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Folder</div>
+			<div class="col2"><span class="var"><b>[Repeat Item</b><b>]</b></span></div></div></div>
+<button class=" inside" id="m8">
+8 Get File of Type <span class="box">com.apple.shortcut</span> from <span class="box"><span class="magic" onclick="magictap(7)"><b>[7 My Shortcuts</b><b>]</b></span></span> <b>&nbsp; ➔ Shortcuts</b></button>
+<button class="button  inside" id="m9">
+9 Save <span class="box"><span class="magic" onclick="magictap(8)"><b>[8 Shortcuts</b><b>]</b></span></span> to File <b>&nbsp; ➔ Saved Shortcuts</b></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">AskWhereToSave</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">FileDestinationPath</div>
+			<div class="col2"><span class="magic" onclick="magictap(5)"><b>[5 Path</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">SaveFileOverwrite</div>
+			<div class="col2">true</div></div></div>
+<button class=" inside" id="m10">
+10 Vibrate Device</button>
+<button class="gVariable inside" id="m11">
+11 Set Variable <span class="box">Saved</span> to <span class="box"><span class="var"><b>[Repeat Index</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m12">
+12 End Repeat with Each</button>
+<button class="button " id="m13">
+13 Show Notification</button>
+	<div class="content">
+		<div class="row"><div class="col1">NotificationActionBody</div>
+			<div class="col2"><span class="var"><b>[Saved</b><b>]</b></span> Shortcut folders backed up in last hero folder.</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2">MLS Backup Completed</div></div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
