@@ -1,1 +1,1391 @@
-{"™️":{"™️":"Bustl","site":"https:\/\/Bustl.io","company":"Simpl System LLC","©️":"All rights reserved"},"shortcut":{"description":"My last shortcut is a redundancy back up in case iCloud backup fails. Also, it's a great way to save versions if you select override if I exist off.","category":"device, utility","id":"com.github.shortcutpros.library.Integrity","version":1,"integrity":true,"author":{"name":"alex,scott","link":"https:\/\/bustl.io\/shortcuts","agency":"@itsbustl"},"depends":[],"link":"https:\/\/bustl.io\/shortcuts\/My-Last-Shortcut","license":"Integrity Framework Copyright © 2021 Scott Wright  MIT License","application":"𝘽𝙪𝙨𝙩𝙡.","quiet":true,"urls":{"home":"https:\/\/bustl.io","news":"https:\/\/bustl.io\/news","info":"https:\/\/bustl.io\/shortcuts\/My-Last-Shortcut"},"files":{"results":"My Last Shortcut.txt","folder":"My Last Shortcut","path":"\/My Last Shortcut\/"},"date":"Mar 14, 2022 at 10:22 AM","error":{"499":"user shut off request in the middle of processing ","401":"Unauthorized request please make sure credentials are correct or contact ™️ Bustl.io","404":"no value was found","504":"Timeout - please try again in 1 minute.  If the error continues contact ™️ Bustl.io","403":"Forbidden request. You do not have access please contact ™️ Bustl.io","500":"Cannot be processed for unknown reasons ","503":"Your device isn't connected to interne","7474":"Your plan does not cover this support - please upgrade or contact an account manager at ™️ Bustl.io"},"arch":"ios15","auuid":"BAFC8D49-08C5-4E4A-B3DC-C1096D2D86FE","name":"My Last Shortcut"},"siri":false,"client":{"phone":"","setup":false,"bustler":false,"cuui":"","onboard":false,"name":"","api_key":""},"code":{"regex":"^\\s+|\\s+$|\\s+(?=\\s)\/g","uuid":"data:text\/html;charset=utf-8,<script>f='uuid'.trim().toLowerCase(),c=+'1'||1,r=(a,v,i)=>a+(f=='hex'||i%2||i<4||i>10?'':'-')+('0'+v.toString(16)).substr(-2),document.write(Array(c).fill().map(_=>(b=crypto.getRandomValues(new Uint8Array(16)),b[6]=64|15&b[6],b[8]=128|63&b[8],f=='base64'?btoa(String.fromCharCode(...b)):b.reduce(r,''))).join(','))<\/script>","invisible":"‌"},"author":{"name":"Alex","link":"https:\/\/routinehub.co\/user\/Sweetcuts"},"***":"***","language":"en-US","bool":{"true":true,"false":false},"translate":false,"formz":{"url":"data:text\/html;charset=utf-8;base64,","code":"PCEtLSBCYXNpYyBIVE1MNS1DU1MzIFRlbXBsYXRlIC0tPgo8IS0tIEJ1c3RsLsKu77iO4oSi77iOIGlzIGEgdHJhZGVtYXJrIG9mIFNpbXBsIFN5c3RlbSwgbGxjLi0tPgo8IS0tIElOVEVHUklUWS3wnZGD8J2RhfCdkYIgfCBNSVQg4oCiIGdpdGh1Yi5jb20vc2NvdHRkd3IgLS0+CjwhLS0gYnVsbWEuaW8gdjAuOS4yIHwgTUlUIOKAoiBnaXRodWIuY29tL2pndGhtcy9idWxtYSAtLT4gCjwhLS0tLT4KPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIiBkaXI9ImF1dG8iPgogIDxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxlPTEuMCxtYXhpbXVtLXNjYWxlPTEuMCx1c2VyLXNjYWxhYmxlPW5vIj4KICAgIDxtZXRhIG5hbWU9ImFwcGxlLW1vYmlsZS13ZWItYXBwLWNhcGFibGUiIGNvbnRlbnQ9InllcyI+CiAgICA8bWV0YSBuYW1lPSJhcHBsZS1tb2JpbGUtd2ViLWFwcC1zdGF0dXMtYmFyLXN0eWxlIiBjb250ZW50PSJ3aGl0ZS10cmFuc2x1Y2VudCI+CiAgICA8bGluayByZWw9ImFwcGxlLXRvdWNoLWljb24iIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vVVZzc0diay5wbmciPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9idWxtYS8wLjkuMi9jc3MvYnVsbWEubWluLmNzcyI+CiAgICA8dGl0bGU+SW5kZXg8L3RpdGxlPgogICAgPHN0eWxlPgogICAgICBAY2hhcnNldCAidXRmLTgiOyAKICAgICAgaHRtbCB7IGZvbnQtc2l6ZTogMTAwJTsgZm9udC1mYW1pbHk6IEhlbHZldGljYSwgQXJpYWwsIEZyZWVzYW5zLCBjbGVhbiwgc2Fucy1zZXJpZjsgfSAgICAgCiAgICAgIGJvZHkgeyBtYXJnaW46IDA7IHBhZGRpbmc6IDFlbTsgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7IGZvbnQtZmFtaWx5OiBzeXN0ZW0tdWk7IGNvbG9yOiBibGFjazsgfQogICAgICBAbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrOykgeyBib2R5IHsgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7IGNvbG9yOiB3aGl0ZTsgfX0gIC8qIERhcmsgTW9kZSAqLyAKICAgICAgQG1lZGlhIChtYXgtZGV2aWNlLXdpZHRoOiA0ODBweDspIHsgfQogICAgICBAbWVkaWEgKG1pbi1kZXZpY2Utd2lkdGg6IDQ4MXB4OykgeyBib2R5IHsgbWFyZ2luOiBhdXRvOyBtYXgtd2lkdGg6IDYwMHB4OyB9fQogICAgICBpbWcgeyBtYXgtd2lkdGg6IDkwJTsgfQogICAgICAvKiBkZWJ1Zy5jc3MgfCBNSVQgTGljZW5zZSB8IHpheWRlay5naXRodWIuY29tL2RlYnVnLmNzcyAqCiAgICAgIDpub3QocGF0aCk6bm90KGcpIHsKICAgICAgCWNvbG9yOiAgICAgICAgICAgICAgICAgICAgaHNsYSgyMTAsIDEwMCUsIDEwMCUsIDAuOSkgIWltcG9ydGFudDsKICAgICAgCWJhY2tncm91bmQ6ICAgICAgICAgICAgICAgaHNsYSgyMTAsIDEwMCUsICA1MCUsIDAuNSkgIWltcG9ydGFudDsKICAgICAgCW91dGxpbmU6ICAgIHNvbGlkIDAuMjVyZW0gaHNsYSgyMTAsIDEwMCUsIDEwMCUsIDAuNSkgIWltcG9ydGFudDsKICAgICAgCWJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDsKICAgICAgfSAgKi8KICAgIDwvc3R5bGU+CiAgPC9oZWFkPgogIDxib2R5Pgo8IS0tIEJlZyAtLT4KICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4KICAgICAgPGNlbnRlcj4KICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgICAgPGgxIGNsYXNzPSJ0aXRsZSI+QnVzdGwuIDxlbT5mb3JtejwvZW0+PC9oMT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJjb250cm9sIj4KICAgICAgICAgPGZvcm0gY2xhc3M9ImZvcm0iPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIiBzdHlsZT0icGFkZGluZzogMmVtOyBtYXJnaW4tbGVmdDogM2VtOyBtYXJnaW4tcmlnaHQ6IDNlbTsgbWFyZ2luLXRvcDogMmVtOyI+CiAgICAgICAgICAgICAgPGxhYmVsIGZvcj0idXNlcm5hbWUiIHN0eWxlPSJmb250LXNpemU6IDJlbTsiPk5hbWU8L2xhYmVsPgogICAgICAgICAgICAgIDxpbnB1dCBjbGFzcz0iaW5wdXQgaXMtcHJpbWFyeSBpcy1sYXJnZSBpcy1yb3VuZGVkIiB0eXBlPSJ0ZXh0IiBpZD0idXNlcm5hbWUiIHNwZWxsY2hlY2s9ImZhbHNlIj4KICAgICAgCiAgICAgICAgICAgICAgPGxhYmVsIGZvcj0iZW1haWwiIHN0eWxlPSJmb250LXNpemU6IDJlbTsiPkVtYWlsPC9sYWJlbD4KICAgICAgICAgICAgICA8aW5wdXQgY2xhc3M9ImlucHV0IGlzLXN1Y2Nlc3MgaXMtbGFyZ2UgaXMtcm91bmRlZCIgdHlwZT0iZW1haWwiIGlkPSJlbWFpbCIgYXV0b2NvbXBsZXRlPSJ0cnVlIj4KICAgICAgICAgICAgICAKICAgICAgICAgICAgICA8bGFiZWwgZm9yPSJwaG9uZSIgc3R5bGU9ImZvbnQtc2l6ZTogMmVtOyI+UGhvbmU8L2xhYmVsPgogICAgICAgICAgICAgIDxpbnB1dCBjbGFzcz0iaW5wdXQgaXMtbGluayBpcy1sYXJnZSBpcy1yb3VuZGVkIiB0eXBlPSJwaG9uZSIgaWQ9InBob25lIiBhdXRvY29tcGxldGU9InRydWUiPgogICAgICAgICAgICAgIAogICAgICAgICAgICAgIDxsYWJlbCBmb3I9ImNvbG9yIiBzdHlsZT0iZm9udC1zaXplOiAyZW07Ij5GYXZvcml0ZSBDb2xvcjwvbGFiZWw+CiAgICAgICAgICAgICAgPGlucHV0IGNsYXNzPSJpbnB1dCBpcy13YXJuaW5nIGlzLWxhcmdlIGlzLXJvdW5kZWQiIHR5cGU9InRleHQiIGlkPSJjb2xvciI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImJ1dHRvbiBpcy1kYXJrIGlzLWxhcmdlIiBzdHlsZT0ibWFyZ2luLXRvcDogM2VtOyIgdHlwZT0ic3VibWl0IiBpZD0iYnRuLXN1Ym1pdCI+U3VibWl0PC9idXR0b24+CiAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvY2VudGVyPgogICAgPC9zZWN0aW9uPgo8IS0tIEVuZCAtLT4KICAgIDxzY3JpcHQ+CiAgICAgIGNvbnN0IGZvcm0gPSB7CiAgICAgICAgdXNlcm5hbWU6IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd1c2VybmFtZScpLAogICAgICAgIGVtYWlsOiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZW1haWwnKSwKICAgICAgICBwaG9uZTogZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Bob25lJyksCiAgICAgICAgY29sb3I6IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjb2xvcicpLAogICAgICAgIHN1Ym1pdDogZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2J0bi1zdWJtaXQnKSwKICAgICAgfTsKCiAgICAgIGZvcm0uc3VibWl0LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlcXVlc3REYXRhID0gYHtcIm5hbWVcIjpcIkdldCUyMERpY3Rpb25hcnlcIixcImlucHV0XCI6e1widXNlcm5hbWVcIjpcIiR7Zm9ybS51c2VybmFtZS52YWx1ZX1cIixcImVtYWlsXCI6XCIke2Zvcm0uZW1haWwudmFsdWV9XCIsXCJwaG9uZVwiOlwiJHtmb3JtLnBob25lLnZhbHVlfVwiLFwiY29sb3JcIjpcIiR7Zm9ybS5jb2xvci52YWx1ZX1cIn19YDsKICAgICAgICAKICAgICAgICB3aW5kb3cub3Blbignc2hvcnRjdXRzOi8vcnVuLXNob3J0Y3V0P25hbWU9SU5URUdSSVRZJmlucHV0PXRleHQmdGV4dD0nK3JlcXVlc3REYXRhKTsKICAgICAgICB3aW5kb3cuY2xvc2UoKTsKICAgICAgICB9KTsKICAgIDwvc2NyaXB0PgogIDwvYm9keT4KPC9odG1sPg=="}}
+[
+  {
+    "file_size" : "25 KB",
+    "color" : "#8757C2",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/device-checkup/device-checkup.html",
+    "shortcuts_version" : "1134",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.html",
+    "link" : "https://www.icloud.com/shortcuts/d277e484b71f4a44b19247d061490841",
+    "release" : "Sat, 21 Aug 2021 11:08:24 -0500",
+    "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/device-checkup.png",
+    "start_color" : 2071128575,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Sat, 21 Aug 2021 11:07:10 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "input" : "",
+    "category" : [
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Device Checkup",
+    "auuid" : "D8782143-1590-4DA2-A1FE-6AEAC866664C",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.device-checkup",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AbybQi_KdZsOVZ6kxbjrF8N8dLSX/${f}?o=AtPhHFam2ghlUOkir6gPsYS-_z-zkwdOsmAVHuhiVCCxNiqKwML5NFWrPKeT0x7HIw&v=1&x=3&a=CAogHt5ZAfOIX2YO9oqcOWt4oiSTmFs2WMt7aS-G3TifSRESexCYjt7Lti8YmOu5zbYvIgEAUgR8dLSXajDt8xkYBk0PH1kd0Uu0DCG3D-5mgBq7HunQPuzd-D-gi7iCjY4wfOnhPzIi7Px65ulyMAdxSRGjP1U2ud8b6LAOrYDdYsqFQl7JmC-NS939r8-NIvvLDgn6KkMzA4-1LdF01w&e=1629565646&fl=&r=a41b4995-f9a3-4937-a518-c9c7e07ae2e4-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=4-urMsi7m5DQTCBRaQs2l_9cEzU",
+    "icon_glyph" : 59697,
+    "notes" : "Release",
+    "certificate_expiration" : "Tue, 20 Sep 2022 10:57:23 -0500",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "description" : "## Choose your fieldsn[![Menu](https://i.imgur.com/S4cOwME.jpg)](https://i.imgur.com/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https://i.imgur.com/4BxMDNb.jpg)](https://i.imgur.com/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https://i.imgur.com/IqshJh1.jpg)](https://i.imgur.com/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https://i.imgur.com/sW3yaV9.png)](https://i.imgur.com/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](https://i.imgur.com/aaC4ZZg.jpg)](https://i.imgur.com/aaC4ZZg.jpg)",
+    "color" : "#F58BD5",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/bustl-formz-builder/bustl-formz-builder.html",
+    "shortcuts_version" : "1129",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.html",
+    "link" : "https://www.icloud.com/shortcuts/7f3e09df41a14e1885673bd9f355d17e",
+    "release" : "Sun, 22 Aug 2021 00:33:16 -0500",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/bustl-formz-builder.png",
+    "start_color" : 3980825855,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Sun, 22 Aug 2021 00:31:06 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "input" : "",
+    "category" : [
+      "Development Tools",
+      "Snippets"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Bustl Formz Builder",
+    "auuid" : "8B0300E1-56E0-4F1E-B8D0-D00F7AB51598",
+    "version" : "1.0",
+    "id" : "io.bustl.cutz.featured.bustl-formz-builder",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AT8aOvShYHjbO8S1Qu46G2Laig4N/${f}?o=AhUlOMbGYh1pfktdvAXFKs2Jp51pQMHjlJswQMGe0tG0pHGHGmfAAcCnqn9BLXFbeg&v=1&x=3&a=CAogGKdWVKE5wth3Rn_TlEBCzzmhcdPCPD9eI-zBq0j_pBkSexDg9N3iti8Y4NG55LYvIgEAUgTaig4NajAzN2rU_uodng5HONmxpN6vFNXWJ5L5QX8YDltpNkcfJMglpp3S0sKZrqPqIvlg81pyMOI8KUfozVZ0T6zCS8EnSU9jaaZq5jaRGvZ_qzVxp1c8zEHEoCTTRBDCo09RmJ6TTw&e=1629613877&fl=&r=cfe5b962-cbe1-4c88-b951-f87deb3383cc-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=9uAt1Q6WtLmu-OhjeBV0vghehDY",
+    "icon_glyph" : 59726,
+    "notes" : "Initial release ",
+    "certificate_expiration" : "Wed, 21 Sep 2022 00:21:14 -0500",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "14 KB"
+  },
+  {
+    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech",
+    "color" : "#FF8467",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/picfly/picfly.html",
+    "shortcuts_version" : "1092.6",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/picfly.html",
+    "link" : "https://www.icloud.com/shortcuts/12d40bfdf03a42cbb0c1acd56c45d982",
+    "release" : "Sat, 21 Aug 2021 21:12:24 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/picfly.png",
+    "start_color" : 4251333119,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Sat, 21 Aug 2021 21:05:33 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Device",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "PicFly",
+    "auuid" : "29B1372D-2D65-4F1B-BD8A-56AC43183A5D",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.picfly",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/ASGEQshQvVXadILEmfO5IC3rspgF/${f}?o=AvIdUSwnBGszl3qG4GN0GbD0thyghWjk2GBnNOm41XJYFYxrIwXLxgBfBBoNVbSuGw&v=1&x=3&a=CAog6g83kZjxGS19WSBVkRBx3PT6N_U9xf0tDeLnzJjOhAoSexDy56Tgti8Y8sSA4rYvIgEAUgTrspgFajCxpFB6FgOHm-twCtkhiWu5MQ4ZtSD8YpUX2GSgIfUy8adhtyv9MLghVef5hm2lUUxyME4XiYVPSpmcXslY4cKy4tENiTg-4eMTbThPrraQQRHFwAt_K-6DufN0GFDtbOOiUQ&e=1629608747&fl=&r=dde8dd9e-558f-479c-a591-303c52d95008-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=QAkKdGls-HsRYv4jToBcOapMIAw",
+    "icon_glyph" : 59674,
+    "notes" : "",
+    "certificate_expiration" : "Tue, 20 Sep 2022 20:55:44 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "20 KB"
+  },
+  {
+    "file_size" : "19 KB",
+    "color" : "#00CBDF",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/linkup/linkup.html",
+    "shortcuts_version" : "1137.2",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/linkup.html",
+    "link" : "https://www.icloud.com/shortcuts/d4080d1a8fa6494ca01279259ea64dbd",
+    "release" : "Wed, 25 Aug 2021 06:10:20 -0700",
+    "description" : "Save links from a website to view, reference or research later to your reading list & notes.",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/linkup.png",
+    "start_color" : 1440408063,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Wed, 25 Aug 2021 06:09:28 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "clipboard",
+    "category" : [
+      "Device",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "LinkUP",
+    "auuid" : "D1FBD30B-9DCA-4CEC-AA95-FE7F067ED7D2",
+    "version" : "1",
+    "id" : "io.bustl.cutz.linkup",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AdZWuucZYH3Ro61XyaWiW0N6kV6K/${f}?o=Avw17ZiWm_6CJnsoBlZ06ilVDo_nTfT4ldbO3P0AFNA12kW4R0Eto-xY_4osfcptqw&v=1&x=3&a=CAog3DDTDtuV7fleMzxehueeTgZeqzb3oYsWlajlvXhfdPQSexC5lLnrty8YufGU7bcvIgEAUgR6kV6KajAUbAHvosYheo63-f4ObvDJsLuNQCEWvTkKcZhz8jU-pgYY4S3K7CVAB5AHUxNIwFJyMImD-MSKTSHHc7ERM3uNiBgcMS4VDh-Dv0w9YOp2rjqyvBbTfkbd2T1yU6w5ouqyaA&e=1629900585&fl=&r=03feed48-233b-493b-bb26-894a6c38bab8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=cU3Qr7aBOlFMQOxc0WorQtqLUI8",
+    "icon_glyph" : 59745,
+    "notes" : "",
+    "certificate_expiration" : "Sat, 24 Sep 2022 05:59:42 -0700",
+    "minimum_version" : 1113,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/docscanner/docscanner.html",
+    "shortcuts_version" : "1137.2",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/docscanner.html",
+    "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
+    "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
+    "file_size" : "22 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/docscanner.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Wed, 25 Aug 2021 07:34:08 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Device",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "DocScanner",
+    "auuid" : "2D9FBA9D-50B6-4B04-B74F-948BF64C7EB5",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.docscanner",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AcpOVFMngSEz3kUPfGpIFYjT5tRp/${f}?o=Anttx2p7n5mteVxy5Nqp4OnDQya6cC7CsmkLprfgAFsL4A8CFwDwqsGremfeRegjIA&v=1&x=3&a=CAogXXiHEb6OtmICemr_QQEHVE93CmQLa7DuUM0DyZQhGz4SexD__e7tty8Y_9rK77cvIgEAUgTT5tRpajCYwuEXqTbQ6yMBCIn628xJQx_z7DJ3T_RMfYZkFWVBKQFxUUYpa222rr2Epj06vtJyMFMVmJPPzdfe1-HE9kwknV32UU7PRHvRXVg6CJGXXZSJGgKMwCdP0Z4rDnmzQyyOOg&e=1629905661&fl=&r=7e5c1ca4-3359-4af0-967d-f92faf9660b7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=66VnYIHj5c6DblfG6uPLwcMgpHo",
+    "icon_glyph" : 61524,
+    "notes" : "",
+    "certificate_expiration" : "Sat, 24 Sep 2022 07:24:18 -0700",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "@SweetCutz",
+      "link" : [
+        "https://routinehub.co/user/sweetcutz"
+      ]
+    },
+    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app."
+  },
+  {
+    "description" : "Blinkit, setsup your Blink page NFC tag. ",
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/blinkit/blinkit.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/blinkit.html",
+    "link" : "https://www.icloud.com/shortcuts/6deef12990a04edfad58137ef38a18dc",
+    "release" : "Fri, 10 Sep 2021 03:02:23 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/blinkit.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 02:59:03 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Business",
+      "Social Networking"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Blinkit",
+    "auuid" : "5DC8F9FC-31DF-4858-BC7D-CB84446C076A",
+    "version" : "0.1",
+    "id" : "io.bustl.cutz.featured.blinkit",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AdwFUhH3s1EiTb_RO0bXru9O-oED/${f}?o=AjbZdVzaY7a9IxniZzpsAhLl8zAvnOkeiDu6llO8mdC9qnCY1hGopUHSODcjykNVnw&v=1&x=3&a=CAog2Dpo8XSk4jo536HPhdESK5svJ21ZCcJY7trweED7W2YSexCQ95b5vC8YkNTy-rwvIgEAUgRO-oEDajDCuItBchpvGfuYQ2RFm6gwGg5kamw4RQve0960tPV-qDbu6uMKxTIUi6VxBSy2VL1yMCbBMQ3y5Qbp9LgPb3QyYThdY8oeLEk497LX9jUVmGK-rfp7IIp75QBlJsgWpg5bwQ&e=1631271561&fl=&r=9766b99b-d4cb-42b7-bfde-212d823f1b01-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PSkRaRnQZfDZ4Uw8YY8Fk6klAgY",
+    "icon_glyph" : 61545,
+    "notes" : "Requires tool box pro",
+    "certificate_expiration" : "Mon, 10 Oct 2022 02:49:18 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "20 KB"
+  },
+  {
+    "file_size" : "20 KB",
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/appquery/appquery.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/appquery.html",
+    "link" : "https://www.icloud.com/shortcuts/95232db81f5f48b7b8edfa485fcba264",
+    "release" : "Fri, 10 Sep 2021 03:06:17 -0700",
+    "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/appquery.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 03:04:50 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "AppQuery",
+    "auuid" : "8FAE940C-E4CD-4449-A9BC-0F28FE1EF2AD",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.appquery",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AdXHbrmu0-1bo2vTU5a5DR552Etp/${f}?o=AtX1gOVUosRRWvfect1L4HRs5RjFzzlrGPyVVKLphC2ycq33krLaXnsIz27c-KtOtQ&v=1&x=3&a=CAogu1jZgdPnfsKSwxyrPGsYxpn0fxP-ySQQTMs8xQYT5KYSexDA_6v5vC8YwNyH-7wvIgEAUgR52EtpajBIUxP1vwJrKGCKvWnCD2q-zZx7Aeg1jvkJfXQ9LGaz-jk968rmVpo9RIOel55WCkZyMIzFWjN9W_xlPehjRuj8Am_mKd6AAEFGhJ_NUau-8HhijWvLTOjGlqdnTfHeVMlXRw&e=1631271906&fl=&r=9202a145-3cf6-4331-897b-4fc0c56652cf-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=LT_qnm4BKDkyPF1BHNwvBc2IX_w",
+    "icon_glyph" : 59822,
+    "notes" : "",
+    "certificate_expiration" : "Mon, 10 Oct 2022 02:55:03 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#44C85E",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/send2quickbooks/send2quickbooks.html",
+    "shortcuts_version" : "1091.5.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.html",
+    "link" : "https://www.icloud.com/shortcuts/51f7ac34cec841f1974608a4005945ba",
+    "release" : "Fri, 10 Sep 2021 03:14:59 -0700",
+    "file_size" : "20 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/send2quickbooks.png",
+    "start_color" : 4292093695,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 10 Sep 2021 03:14:06 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Business",
+      "Finance"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Send2Quickbooks",
+    "auuid" : "c4f300eb-817d-43d7-9c3a-2433bc5fa303",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.send2quickbooks",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AR9CSeBU691RmLLeMTb_Cu42C51m/${f}?o=Amy2n1mpKapuLL7xt_b9DjVmrr3CD1otUVC0V25TYTtcw8ig1bpHoVCRHjSBQtz4ow&v=1&x=3&a=CAogW4gEiMtM4QxTvOdVAYhmw-IisNKVPGPqJnF0KgQWXaESexDh5s35vC8Y4cOp-7wvIgEAUgQ2C51majCnDX09-HRHPmKPHFMEzTE2-EkQAt2VY6eEC4HULpPfgY2unBAkbxdiocMt1pjMNhlyMMAg02j-3AIXZjNeSYG7YusLR3_sEr_rlEnK4QHhS5gdwuqBoWmPiWrNPkDI8U_o-g&e=1631272460&fl=&r=c730787d-4c57-4f9d-a32e-ab086d962698-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=w4uxro2-Cl6mqfRNrofVyQeOKIk",
+    "icon_glyph" : 59395,
+    "notes" : "",
+    "certificate_expiration" : "Mon, 10 Oct 2022 03:04:17 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---"
+  },
+  {
+    "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---",
+    "color" : "#4A69C6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/quickconnect/quickconnect.html",
+    "shortcuts_version" : "1134",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.html",
+    "link" : "https://www.icloud.com/shortcuts/d8f61daf08744812a3787ae5cacf3154",
+    "release" : "Sat, 18 Sep 2021 22:52:11 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/quickconnect.png",
+    "start_color" : 946986751,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Sat, 18 Sep 2021 22:50:29 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "System Admin",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "QuickConnect",
+    "auuid" : "A6129FDF-1B9D-457C-A33E-E58AE4DF9D98",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.quickconnect",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AXH2FxHudMmnMxb-qfxsAN1HFC-T/${f}?o=AnPAu0kRohpp0EhDddlXHu8FpMb9sBKcZ3z26yEQJnPU3k4rwR3NWPq8yFAGA6eeVg&v=1&x=3&a=CAogtA0zt015aaVy7vpO8lCPa_YMYoZBcyE75MEUzG0vZ8YSexDFuO3kvy8YxZXJ5r8vIgEAUgRHFC-TajAoBgvJS6Oz-EI8P6m1DqF-QmomZn-7Dy3z1dd8OMe_FvOoljVYcCwLrMIVaUoYMl1yMP2XfIGad-tAuKT2lk3wbO9RPZwDBO8Tpc1i-qD4wLqjs3rjp6x6qS6Bb3Oe0q_C7A&e=1632034245&fl=&r=6c435edb-016f-445a-82c5-be64c49d3ae0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=6Baea5QVnze5oL74fVY791kxPPw",
+    "icon_glyph" : 59867,
+    "notes" : "",
+    "certificate_expiration" : "Tue, 18 Oct 2022 22:40:42 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "18 KB"
+  },
+  {
+    "file_size" : "17 KB",
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/pdfanything/pdfanything.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.html",
+    "link" : "https://www.icloud.com/shortcuts/ba9f76307fd348aaab20b34c009f9bbe",
+    "release" : "Mon, 20 Sep 2021 19:39:35 -0700",
+    "description" : "PDF Anything converts any documents, notes, images into a pdf file.",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/pdfanything.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Mon, 20 Sep 2021 19:31:34 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "PDFAnything",
+    "auuid" : "D5564900-1E15-45DC-8F23-51ADBF5A9504",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.pdfanything",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/ASbqeTeMNufENqjcib_NV42HO27x/${f}?o=Ar2T4-CQ06HQwuzweJvKa2fK-Vzs2rSU4asHXOPTeaWzgnOG3_UFXQimyFGGfqzsxg&v=1&x=3&a=CAog43R1CXWdLubYeeI092Xs2xGTVk43V-2UPUnka7VCc9QSexCI7MexwC8YiMmjs8AvIgEAUgSHO27xajDhmH0_XIcjEVLX2dWJw3r6ilGh76Eg4wRC5mIBGDtYyWeBNPL98YSfM7gc4HKz7AVyMKR92sCHg5djKEfsaeh_UTjwpxhVMzgzrPYgTmRhU26sjT6wWTnm1iQKiXuXWHBS8A&e=1632195110&fl=&r=ecd4d51a-aca1-4815-8711-8eba4b5736d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=UMx1AtSN5Xri37LRI6pIcAxI5jU",
+    "icon_glyph" : 59791,
+    "notes" : "",
+    "certificate_expiration" : "Thu, 20 Oct 2022 19:21:47 -0700",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/masterhashtag/masterhashtag.html",
+    "shortcuts_version" : "1134",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.html",
+    "link" : "https://www.icloud.com/shortcuts/caa46a23873a43ceb6227519bb1994f4",
+    "release" : "Thu, 23 Sep 2021 21:30:14 -0700",
+    "file_size" : "49 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 23 Sep 2021 21:27:55 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Social Networking",
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "MasterHashtag",
+    "auuid" : "FB774FE9-CF46-46CE-9263-554E6D78E041",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.masterhashtag",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AXq816Tyfh_NP1RaLAco929wpZo_/${f}?o=AjBKLtmhm93Fk5Acp5FY3NpZ6vwODhYL7WGWnj7grWlHL500rvJtby-8me8ZH2p5PA&v=1&x=3&a=CAogJNovsPXjR1l4TeujY6lI8ZM7HqYIMiDET1IwmSwGssQSexDMu76wwS8YzJiassEvIgEAUgRwpZo_ajDO3sD8Pge0IxiylyfP6FCn6gFjcDOAss5AjS3DmKl34yediYE0Y3WUEno3nWbe9btyMCFiCjzINOSPhFgWOaaOE5dWt-bFzIb2y0_E0A-6NxY6v_vWL5LDBEAF3R5c--TTFw&e=1632461294&fl=&r=8783e5c5-59c0-45c4-8674-861dbf6f3e74-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=GF-fZfIMmqTpA-nhq_loSNAEDxo",
+    "icon_glyph" : 61549,
+    "notes" : "",
+    "certificate_expiration" : "Sun, 23 Oct 2022 21:18:11 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Name: MasterHashtagnDescription: MasterHashtagn3000 hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. category: device, utilityn---"
+  },
+  {
+    "description" : "Name: ColorPalettenDescription: ColorPalette - build a color palette with samples & hex codes.ncategory: device, utilityn---",
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/colorpalette/colorpalette.html",
+    "shortcuts_version" : "1137.2",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/colorpalette.html",
+    "link" : "https://www.icloud.com/shortcuts/c97a286e1076402bb0b54af24fd1e281",
+    "release" : "Thu, 23 Sep 2021 21:52:22 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/colorpalette.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 23 Sep 2021 21:49:19 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      "Graphics & Design",
+      "Photo & Video"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "ColorPalette",
+    "auuid" : "33480345-F6E4-4212-9379-9D7413E19295",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.colorpalette",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZNz-PehAt8lISv5BCWtVHVquhnu/${f}?o=AoxBEg5s6BNc1KWtROtPWoMysKq8e3mnhzeQNFBaE18t_4yin8n6UZ23YUt75kbsng&v=1&x=3&a=CAogNjsPHUGPnsMMjfEb0e0jUSb1qx0E1hl3frXhc4DwFQMSexDE1oyxwS8YxLPossEvIgEAUgRquhnuajBhxWH8rxiGYTX7e863VUzz4OLwKZSJkTJLtzzpxtJVf0nmvcymZq1k8-Stt-vMBC1yMPovauibOTxY9RNYTw8OlqKKLz4WxaQYWatoDwZx0EciKf9RUnE7cpHZoPsZow4BZw&e=1632462576&fl=&r=6b5494ec-e648-471a-9c6b-d1e35c64c7cf-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=NkAzhSLIp75_xZndagEwu_kSbrU",
+    "icon_glyph" : 59716,
+    "notes" : "",
+    "certificate_expiration" : "Sun, 23 Oct 2022 21:39:31 -0700",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "23 KB"
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#BB7AE3",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/simple-template/simple-template.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/simple-template.html",
+    "link" : "https://www.icloud.com/shortcuts/80a1d7e3006a47b0a9550032041f3f6f",
+    "release" : "Sun, 26 Sep 2021 15:00:40 -0500",
+    "file_size" : "8 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/simple-template.png",
+    "start_color" : 3679049983,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Sun, 26 Sep 2021 14:56:20 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "category" : [
+      "Development Tools"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Simple Template",
+    "auuid" : "92B85B46-362E-4369-BDDD-E3E234C30380",
+    "version" : "1.0.0",
+    "id" : "io.bustl.cutz.featured.simple-template",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZEGLN8W0FH2NXvExJU2_RsS3qkU/${f}?o=Ai5mSjpOsakbeavb74uZ6JtilLkAGQUQF0L7Oglj4O-zPxDqPDgll8ZglKW7_ZXktw&v=1&x=3&a=CAog3DFNlqF3DbMVX0lfVAze-mLldJh0imB0WMDpNImtkc0SexDvpbmdwi8Y74KVn8IvIgEAUgQS3qkUajDkztIVC5zgkYe6ylf6-HEtaABq9sOzKA_ZLQZVRpTuzWO0HMuByLTmhyXCmtwRvRdyMLZAaM2HZl7SSZ81tt_MDFrqFKidGR5UOLWRSkl5RwDJO6r2BEiqMQxOViLlwAoGYA&e=1632689799&fl=&r=93a0adc5-4606-4095-a30b-da045c7a7aa2-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=XeF313Hbf01Xo7DeT4W41nOovYA",
+    "notes" : "Test publish",
+    "icon_glyph" : 59849,
+    "certificate_expiration" : "Wed, 26 Oct 2022 14:46:36 -0500",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Shortcut NamennA simple shortcut menu template"
+  },
+  {
+    "description" : "Name: Bulk64Archive Description: Bulk base 64 encode files & archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility ---",
+    "color" : "#86919B",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/bulk64archive/bulk64archive.html",
+    "shortcuts_version" : "1143",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.html",
+    "link" : "https://www.icloud.com/shortcuts/3acd905a3c1a45a19917ee9bb34babc1",
+    "release" : "Thu, 07 Oct 2021 22:30:19 -0700",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/bulk64archive.png",
+    "start_color" : 255,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 07 Oct 2021 22:24:57 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Bulk64Archive",
+    "auuid" : "BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.bulk64archive",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZzcg6Q2iMaYk7OeGfjPBg6Nlutn/${f}?o=AiqJ70F6TWHvPqM7VA5idezUGWG_OXQwfwAelYfdv9j5BwRLUdNyA1p9dRbuiSwPeQ&v=1&x=3&a=CAogoSpm6pjSBD4-yaNvNsFbRjMgZ29ijoMZ6X7Xoq_fyiQSexCJq_PyxS8YiYjP9MUvIgEAUgSNlutnajBhx9VFtWmxsWsE9DUBkcc-pKcjwFIW68j8adsQT8eo0Ug6KB8GRkktsZLVRwR2bfdyMNHuUxI-lZoq4mhGkJZZuHZqkDSk6d-eekZrsDUB7WhhZdHpB5aZLp0SSF5oxhvXPw&e=1633674314&fl=&r=f2962b20-f718-4522-a3df-5dda50ff9c1f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PfgUi8wy35XvxAVMzOyr2U_zZ4s",
+    "notes" : "",
+    "icon_glyph" : 61565,
+    "certificate_expiration" : "Sun, 06 Nov 2022 21:15:12 -0800",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "19 KB"
+  },
+  {
+    "file_size" : "5.5 MB",
+    "color" : "#00CBDF",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/siriringtonegenerator/siriringtonegenerator.html",
+    "shortcuts_version" : "1144.1.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.html",
+    "link" : "https://www.icloud.com/shortcuts/663ae630019f4c80b1a552d720e2daa0",
+    "release" : "Sat, 16 Oct 2021 10:09:47 -0700",
+    "description" : "SiriRingtone SiriRingtone allows you to generate custom announcement ringtones to assign them in your ringtone settings for different types of notifications, a contact call &/or text announcements. ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/siriringtonegenerator.png",
+    "start_color" : 1440408063,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Sat, 16 Oct 2021 10:07:37 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "category" : [
+      "Productivity",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "SiriRingtoneGenerator",
+    "auuid" : "80D1F78F-AABA-47D7-A840-A04A1F6870DB",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.siriringtonegenerator",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/Afw_HY2w3LhYq2iYIzaFGh1fTru4/${f}?o=AhkgpYUte-bTh33eKfQjPuutwQTgnEr_SNH3CZVmZaods_AEf-lrmFnhqL6doIexhg&v=1&x=3&a=CAoglnD_v6w9wDfJa02JUTgt7zvNuchIU3epGs0p11CRjvASexCy9cvQyC8YstKn0sgvIgEAUgRfTru4ajAuL49G_kSxpqy-gwBn9Md33DobphzVR1s6hBgsRY6fr5A436fT1TsgIk2NYriscMJyMCL8UB5eJhqJHah6qaY9lDdy6kzEjopzSbldx68y0ZHIIpCULi50cU_I1xy7b9hUvQ&e=1634407672&fl=&r=355ad07d-c8e0-42a3-9fca-ac14d75c0507-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TAClqdijTYRecSESuaqYFtGPsm4",
+    "notes" : "",
+    "icon_glyph" : 61440,
+    "certificate_expiration" : "Tue, 15 Nov 2022 08:57:46 -0800",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "file_size" : "8 KB",
+    "color" : "#BB7AE3",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/simple-template/simple-template.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/simple-template.html",
+    "link" : "https://www.icloud.com/shortcuts/80a1d7e3006a47b0a9550032041f3f6f",
+    "release" : "Sun, 26 Sep 2021 15:00:40 -0500",
+    "description" : "Shortcut NamennA simple shortcut menu template",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/simple-template.png",
+    "start_color" : 3679049983,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Sun, 26 Sep 2021 14:56:20 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "category" : [
+      "Development Tools"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Simple Template",
+    "auuid" : "92B85B46-362E-4369-BDDD-E3E234C30380",
+    "version" : "1.0.0",
+    "id" : "io.bustl.cutz.featured.simple-template",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZEGLN8W0FH2NXvExJU2_RsS3qkU/${f}?o=Ai5mSjpOsakbeavb74uZ6JtilLkAGQUQF0L7Oglj4O-zPxDqPDgll8ZglKW7_ZXktw&v=1&x=3&a=CAog3DFNlqF3DbMVX0lfVAze-mLldJh0imB0WMDpNImtkc0SexDvpbmdwi8Y74KVn8IvIgEAUgQS3qkUajDkztIVC5zgkYe6ylf6-HEtaABq9sOzKA_ZLQZVRpTuzWO0HMuByLTmhyXCmtwRvRdyMLZAaM2HZl7SSZ81tt_MDFrqFKidGR5UOLWRSkl5RwDJO6r2BEiqMQxOViLlwAoGYA&e=1632689799&fl=&r=93a0adc5-4606-4095-a30b-da045c7a7aa2-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=XeF313Hbf01Xo7DeT4W41nOovYA",
+    "notes" : "Test publish",
+    "icon_glyph" : 59849,
+    "certificate_expiration" : "Wed, 26 Oct 2022 14:46:36 -0500",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "description" : "MealTimers During the holidays you may be prepping multiple items at the same time.  The clock app only runs 1 timer at a time. This shortcuts allows you to setup multiple timers & title them by the item you're prepping - so when it goes off, it will appear the name of item that is done. ---",
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/mealtimers/mealtimers.html",
+    "shortcuts_version" : "1145.7.2.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/mealtimers.html",
+    "link" : "https://www.icloud.com/shortcuts/225c056218054975a2cf76a817990419",
+    "release" : "Wed, 15 Dec 2021 14:29:10 -0800",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/mealtimers.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Wed, 15 Dec 2021 14:20:45 -0800",
+    "device_id" : "7E507DC8309437A99222FEFCE6CF03B1E7FAF10DA6319A4A77537B8C30B48984",
+    "category" : [
+      "Food & Drink",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "MealTimers",
+    "auuid" : "DF76E6F6-57E9-4F93-A14B-779CC901999E",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.mealtimers",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AeWgxR0KrxHnehnOe_cZsHshIB0d/${f}?o=AsFfKM_UG2DNtnGHoiwz0TxeJQUeTardF6V-Kjn97jXIESHPcHg92tmgn6H8z1ZK3A&v=1&x=3&a=CAogRQDGGiKkE8vuhEQGQjxfyjoz9ZBhbZTdxS8ahg_aQaESexC60NeB3C8Yuq2zg9wvIgEAUgQhIB0dajDiUNvbP6cTCT134vixnUPMGqXjnQo_l69qGlxpyCjVdMkjDCvP0vcaXtQKbBXf32VyME3kK_CHsc5z_mkI9Lz7GQ8bREvP3UZPKBWSMqw6_MQOlbtOcYEDG2FKAmlZPjeeFA&e=1639610898&fl=&r=18e35a59-010d-4770-b457-d1d5c90c49ee-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=5LboEVSSvp1WjneCV1h3AkBBG8A",
+    "notes" : "",
+    "icon_glyph" : 59757,
+    "certificate_expiration" : "Sat, 14 Jan 2023 14:11:13 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "18 KB"
+  },
+  {
+    "file_size" : "3 KB",
+    "color" : "#44C85E",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/send-team-a-message/send-team-a-message.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.html",
+    "link" : "https://www.icloud.com/shortcuts/3ca3ac8e202e45c8865873529e8f2f18",
+    "release" : "Mon, 03 Jan 2022 11:33:41 -0800",
+    "description" : "Send Team A Message Smart group messaging. Spare your team the pains of group text.  Perfect for notices, alerts, & non-dialogue communication. ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.png",
+    "start_color" : 4292093695,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Mon, 03 Jan 2022 11:32:10 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Business",
+      "Social Networking"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Send Team A Message",
+    "auuid" : "FA9FC304-1E8A-46FA-B7D5-2FC7D8AF3C3B",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.send-team-a-message",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AaaLcFUNCozmRZxRNVKBD-4yK4Lu/${f}?o=AjBOVWG61E4IRxB9kChRg6GJwv6b9MfcTCuJ195KKgMM8rHkKUGfJjR5n5sVy2Y5ww&v=1&x=3&a=CAogXDnSCgyFOhdcp7ph-aLsQrsNin_LqXhyMCtWDK_sjrISexDnrbiL4i8Y54qUjeIvIgEAUgQyK4LuajArRzU0q9x-lqFyEAjgDP5s6FuQwFRGShboFqxVcA6pX3ZB4vFVdMbC6H8mHZKfrflyMEnurmxXq19rzp_U0Kwm_1o5jtkg4AtosTW7It-_Gmb-eW-bFhHqZVLkAfZXEZMsrQ&e=1641241970&fl=&r=45c2e15e-eb4a-41bf-9f64-0173f9be38d8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=9qHgMN43XoEY37mKSoXptJ-CaFA",
+    "notes" : "",
+    "icon_glyph" : 59403,
+    "certificate_expiration" : "Thu, 02 Feb 2023 11:22:47 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#4A69C6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/find-that-emoji/find-that-emoji.html",
+    "shortcuts_version" : "1125.1",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.html",
+    "link" : "https://www.icloud.com/shortcuts/197379a0374446d7b5009dae7e0720b9",
+    "release" : "Thu, 06 Jan 2022 16:19:16 -0800",
+    "file_size" : "15 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.png",
+    "start_color" : 946986751,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 15:58:33 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Entertainment",
+      "Social Networking"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Find that emoji",
+    "auuid" : "120C6ABE-E6C6-468D-8AF3-25A4953F2376",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.find-that-emoji",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AbOEO4ZBkW9RsOPhWDbgP_1f_8bN/${f}?o=AtF_wkLVP7h5r_LY1DzN4-vPNKa8x-8U5v2YBv4RDrmh3l4DIEr2R9EdJoqzh15IZQ&v=1&x=3&a=CAogLAPOxMpt9Xlu1c_qu5r73Of86d486jxHtuyHEjM0GQASexC_0NmO4y8Yv621kOMvIgEAUgRf_8bNajA3oYSKOQvA5ZE7yxDF_03QVJUaR3SC7WOcyYXKFVRr4ZltVvhwYC-Jt8Xbebf7_KByMBHC_0P4I44Ai7gBhFNOBoTIjTTjUYh0xSLpRWNpnRuwDCvnFh8QAxI1T5HGehFCMA&e=1641517242&fl=&r=f11ecdd5-8073-4a12-bb22-74353a960e80-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=fHi1rr4IapEm1GHiHLLBgDCZ1VQ",
+    "notes" : "",
+    "icon_glyph" : 59659,
+    "certificate_expiration" : "Sun, 05 Feb 2023 15:48:49 -0800",
+    "minimum_version" : 1106,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Find that emoji Find/Define emojis by word description or emoji image, promoting clear communication. ---"
+  },
+  {
+    "description" : "Definition Presents the definition found in your set dictionaries.  To update dictionaries, go to settings:general:dictionary:select all applicable dictionaries. ---",
+    "color" : "#12B4F6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/definition/definition.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/definition.html",
+    "link" : "https://www.icloud.com/shortcuts/8c8b520cc738429096289f1a8628dfcc",
+    "release" : "Thu, 06 Jan 2022 16:41:26 -0800",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/definition.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 16:40:31 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Education",
+      "Reference"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Definition",
+    "auuid" : "4B441188-73FA-4259-9743-C8C1006D6038",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.definition",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AcQ97syyGrJ44ZOxBlvSAs0KIRw3/${f}?o=AnwezWP8oUPuQm3O_o-30cu7UmaD2ap2urq5yC895i4nQk3faXaWVtKjNu9eKUyHTg&v=1&x=3&a=CAogoGyejav2W3WPScz__tmVFIRi4oB8yC5fISUrK5Z8J-0SexDPquyP4y8Yz4fIkeMvIgEAUgQKIRw3ajBpwOx6CqklgBjc4j682Evxw6XAIk2hJV8fdlul1dXwiXEJSF_BTIPEbYj6zv9Ke3tyMH3nR3zZbL-xmIfZpAgR7FyAwS6pdhqHSUFNWWYgaIB_VoEADZWoLO6NkYLG79F0XA&e=1641519645&fl=&r=65db209b-d0fe-4892-922e-a24f1e46ded7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TTW9fTbkDrjA5kCHXtl3iqPBiu0",
+    "notes" : "",
+    "icon_glyph" : 59465,
+    "certificate_expiration" : "Sun, 05 Feb 2023 16:30:42 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "2 KB"
+  },
+  {
+    "file_size" : "1 KB",
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/dictate/dictate.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/dictate.html",
+    "link" : "https://www.icloud.com/shortcuts/73eba4e2479040f38cf4e29002ef8543",
+    "release" : "Thu, 06 Jan 2022 16:53:16 -0800",
+    "description" : "Dictate Dictate in any language to text.  ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/dictate.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 16:51:56 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Social Networking",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Dictate",
+    "auuid" : "F5516B71-1A5E-4DF1-9F18-73799A786113",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.dictate",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AYYOJm9OSTh5SgdNzVTJlmOGTbud/${f}?o=Ah1y0HLLMUnv0A8C6LTQ2Yzj2ndBgrlaTXL2Sk3W0Jb1cSQLb1oR9aGmg7Drs22UUA&v=1&x=3&a=CAogGRZv9YYgDY3GOj3lHvrxKsOUPQT5rQrXfGbpHIA_bMUSexC3qZaQ4y8Yt4bykeMvIgEAUgSGTbudajDcxpy4gUZmDIOyOl-84tSEho2VLhZqjZOtLRNzZVnaa0V_bOhP0OV_9o0I8U55OJ5yMLeQ4hd7mLycjFjF-Kvk1DfVLzQWGqT7NxH1mV4f6_HnwEzR5XVWU4eyyOMbvSm5Hg&e=1641520333&fl=&r=29b1def5-9253-4e1e-a891-2e5a0cc69437-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=zHRC7iw8ei367hfk6jV7CexxaFc",
+    "notes" : "",
+    "icon_glyph" : 59780,
+    "certificate_expiration" : "Sun, 05 Feb 2023 16:42:11 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "description" : "Text2Audio Convert text into spoken audio.  ---",
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/text2audio/text2audio.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/text2audio.html",
+    "link" : "https://www.icloud.com/shortcuts/97700b98610448b7926e280ebe93b25c",
+    "release" : "Thu, 06 Jan 2022 17:03:02 -0800",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/text2audio.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 16:59:11 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Text2Audio",
+    "auuid" : "5CB79A85-E848-4BA8-B336-F49BACBFD0E6",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.text2audio",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AQKbdVkKHiPZJlQiE71RBDGfY-dB/${f}?o=ArIsvVoi2gXBbIwS6nJ_ghZwN1BVPuJHz1zDs-j8eJoXLvZp0Joz7WwPgegW4rx2Nw&v=1&x=3&a=CAogaRO-vNV_ZF0HlBj-TrGlXWL384LB-Jjl7Ss_x51tCqUSexCInruQ4y8YiPuWkuMvIgEAUgSfY-dBajCq4IbT77xuKT4TlLFHxqzqO_06SC8uU_GwQwZPUBRloWXHn1sLAPyV6gDpzQOLKp5yMLgTCPHY53qFaH53X_beEtBWsDFK_7d8ciwucikFwmnlRr7kB-f1nVS3GtLcHWcUIw&e=1641520938&fl=&r=995b9328-8f29-46a3-b9d1-b941901d2f64-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=ehnkniDkAqQAc2rZL2LMFsVTjI4",
+    "notes" : "",
+    "icon_glyph" : 61505,
+    "certificate_expiration" : "Sun, 05 Feb 2023 16:49:32 -0800",
+    "minimum_version" : 1113,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "2 KB"
+  },
+  {
+    "file_size" : "2 KB",
+    "color" : "#4A69C6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/zip2email/zip2email.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/zip2email.html",
+    "link" : "https://www.icloud.com/shortcuts/4dd8963c20934d20bcbdf04c3373d881",
+    "release" : "Thu, 06 Jan 2022 17:24:05 -0800",
+    "description" : "Zip2Email Zip any file & send it in an email.  Great for large files or multiple files. ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/zip2email.png",
+    "start_color" : 946986751,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 17:21:49 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Productivity",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Zip2Email",
+    "auuid" : "63264E6E-23D0-46AF-B775-D013ECE9CC23",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.zip2email",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AeXqnl7VL6MmNCBJR8bNJR3nBFvH/${f}?o=AjPn5VFWoCTKWArj4TjAo9-__G9UPTC_7WLslojZ1-KTH72WysBsjnnhGZqgVBnXVw&v=1&x=3&a=CAogbZq6QgsOaTnIIhgj0UjhazZQh6Q76hqb2TE0Pbb_lcYSexC7rIeR4y8Yu4njkuMvIgEAUgTnBFvHajB9tQULxGNp5ik7nuI_Qz3HWjnNEk-jIF8Av_aiJ627pRENWUzuT7mEDeW28ufuM1VyMOO-ytIqFHdJy0jd2N00qpDFVR2bBlDBU3vIfKiD7eWHq8U5Iu-8SFM95f1XlCLQXQ&e=1641522185&fl=&r=f0299b75-95cf-43f1-950c-576b93e6d70d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=V1mY1_WEGkqb2m0l__nZ6ymUNwk",
+    "notes" : "",
+    "icon_glyph" : 59409,
+    "certificate_expiration" : "Sun, 05 Feb 2023 17:12:17 -0800",
+    "minimum_version" : 1113,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#F26369",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/availability/availability.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/availability.html",
+    "link" : "https://www.icloud.com/shortcuts/f7b5100eb2a14070ac1a23b7f0322eca",
+    "release" : "Thu, 06 Jan 2022 18:01:40 -0800",
+    "file_size" : "8 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/availability.png",
+    "start_color" : 4282601983,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 17:58:29 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Business",
+      "Productivity"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Availability",
+    "auuid" : "3F94BD8D-F564-48B6-B8A5-E8D70F4117A7",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.availability",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AXgbtYfyPrPrlMblPkAYX1PGDlta/${f}?o=AvXhI1Hkc_R62Ocm3LaJjp6ekBlLYaZ0-OQ0RHaPF-jyg7rxHZ9pnh-1k8MhSZLNKg&v=1&x=3&a=CAog3cvMRW1FyTer0dAwja5NqqDSbFarDY22BvWGYsR9VBASexDmu4uS4y8Y5pjnk-MvIgEAUgTGDltaajC-JsXiWhw5iJhklgrsOiIJPL_nVtMLiN4UFJtJKtDGmZ0gUJz_GJV0Ss51RetHrkNyMHQ2515bm-zxowEBlCW8JupCIQv-bVuSFVT5qxWo8G6qjQcSpLOeq4HyXJ9u5lnlPQ&e=1641524350&fl=&r=dcee55bd-9820-4e7c-8da8-b25a9bad3cec-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=lBZyV1KGvao_gVMqZTI4WC-VmMs",
+    "notes" : "",
+    "icon_glyph" : 59712,
+    "certificate_expiration" : "Sun, 05 Feb 2023 17:49:07 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Availability Share your availability time slots for a set day.  Stop the madning back & forth. ---"
+  },
+  {
+    "file_size" : "2 KB",
+    "color" : "#4A69C6",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/translate/translate.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/translate.html",
+    "link" : "https://www.icloud.com/shortcuts/e1eb227d8b764478b963321b8c0df659",
+    "release" : "Thu, 06 Jan 2022 19:22:09 -0800",
+    "description" : "Translate Translate any text to English.  Auto detects input language translated to english by default.  ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/translate.png",
+    "start_color" : 946986751,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 19:21:03 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Lifestyle",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Translate",
+    "auuid" : "BA912FE4-3D6C-4AF2-9C0E-252A4F50DC07",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.translate",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AfajW8BB7qM9goFHMIKKszgFnzt9/${f}?o=AjpjWUMkypR4-J9D4EjzdYlubDIzRKJ7Ex0mhd6SPaaGbC_i75w-AdMZD9VH4F5y8Q&v=1&x=3&a=CAogNo3Mvg7pClU9MMLxOlFcpjpuvz9BzynvjeY-Q1g2mqUSexC4oriU4y8YuP-TluMvIgEAUgQFnzt9ajDDopoYMhh_gUZouYdcMEYe1oA5JqQ3gvyvErbY7fhLQEJPb6x8sAIg0KLEHtv5QHJyMIgiWLvWgal5C65cIUZ0MdWeGQwG1KYoyU49TnL2VppRuSoQ4_pCB91rot0q6pKvyg&e=1641529278&fl=&r=0f010764-90b7-423f-8bcb-138c6d81fcb8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=AprgqQoTVWkHGZXcxwenK61hy4E",
+    "notes" : "",
+    "icon_glyph" : 59729,
+    "certificate_expiration" : "Sun, 05 Feb 2023 19:11:15 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#8757C2",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/google-bomb/google-bomb.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/google-bomb.html",
+    "link" : "https://www.icloud.com/shortcuts/f4c1e3404333450eb4bcd328359a55a7",
+    "release" : "Thu, 06 Jan 2022 19:33:15 -0800",
+    "file_size" : "3 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/google-bomb.png",
+    "start_color" : 2071128575,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 19:32:04 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Business",
+      "Productivity"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Google Bomb",
+    "auuid" : "F14CD959-9C0C-4F3D-BA3F-5F587A666671",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.google-bomb",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/ATZVXFKh7dTbuQzjxEi_bLNu4Net/${f}?o=ApHC-37VTVwMXldJaoo_VHT3oR2w4fPnPW5T1jbLCsijKE1PRXW_5seOeR8tUguAOw&v=1&x=3&a=CAogty3z9q3K_40OzQhXOTLXKF9V-0ajSD-NgLEL29NYUD0SexD_3-CU4y8Y_7y8luMvIgEAUgRu4NetajALwIeAHqv450hwWczOyLwCvuWIyV4y1V4SdLqaOyAaFwFbgMPoSGCGEwo5TI0pnPNyMC8Z-Blnpa8Jix1j6ERZSU1_rNvtOwDWuP6j4BOdTWgq24guRmB_DBA3iWwOcpgjJQ&e=1641529941&fl=&r=0fcccce7-3c58-4137-946d-93d9bc8a781a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=ZsH5JXFF2Souk0mP6xKJ_tvA66g",
+    "notes" : "",
+    "icon_glyph" : 59657,
+    "certificate_expiration" : "Sun, 05 Feb 2023 19:22:18 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Google Bomb Search everything at once from a list.  Each new line in your list equates to a separate google search to trigger simultaneoulsy, will open a new tab for each search instantly. When your boss drops a research bomb on your desk - say no problem, use google bomb. ---"
+  },
+  {
+    "description" : "PNGurl Instantly generate a url link to selected images to easily share in text or email.  URL is copied to clipboard if needed to reshare. ---",
+    "color" : "#8757C2",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/pngurl/pngurl.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/pngurl.html",
+    "link" : "https://www.icloud.com/shortcuts/95bdedddfc9745e1870ee581bf50a5f7",
+    "release" : "Thu, 06 Jan 2022 19:48:42 -0800",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/pngurl.png",
+    "start_color" : 2071128575,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Thu, 06 Jan 2022 19:43:36 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Photo & Video",
+      "Productivity"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "PNGurl",
+    "auuid" : "951C7E4A-8007-4FA4-882F-5E761DB98168",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.pngurl",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AfLLL0I3Z3yN6KcnEgMYHZu8SmOq/${f}?o=Anfg5COzUG1MJMuog54rTu1qQgz8nuLPNXS0ggb0ay66ySIhfQPr7UPfJ5podBBlpg&v=1&x=3&a=CAog7T2yT1xHwJvzdg5YSa2lugW397qoGE9Ns2V4YBH5C2kSexC58oqV4y8Yuc_mluMvIgEAUgS8SmOqajCzfSjBuL_FcHBbFL2kJ0T4jdDd_hJCte3KQ3m1O7As5NgK6KefFlXhhLmHChXRHwJyMCZkOf5tC-s0N2MpdqRGWAiXq1oJaPzTQ1YkBs-owyH-kxDQYcANF7Kf2Ydi8U18Ug&e=1641530632&fl=&r=f2666901-36be-4d80-9d9b-cc661e6a0c1a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=VML6jt2ncri0EyPL9v33GEHTbtg",
+    "notes" : "",
+    "icon_glyph" : 61460,
+    "certificate_expiration" : "Sun, 05 Feb 2023 19:33:49 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "2 KB"
+  },
+  {
+    "file_size" : "6 KB",
+    "color" : "#44C85E",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/reflect/reflect.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/reflect.html",
+    "link" : "https://www.icloud.com/shortcuts/54a08e8977d2404eaf80c80f7f5c4814",
+    "release" : "Fri, 07 Jan 2022 09:52:44 -0800",
+    "description" : "Reflect This shortcut asks you five questions to review your working day and set goals for the next day. It stores answers in Notes to review how you have been doing across a period of time. The last two questions set reminders for the next day. ---",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/reflect.png",
+    "start_color" : 4292093695,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Fri, 07 Jan 2022 09:51:31 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Health & Fitness",
+      "Lifestyle"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Reflect",
+    "auuid" : "2D6ED49F-1A2F-460B-873B-2B8A3575408F",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.reflect",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AUGdgsOrMrbGdFgB0tl9TTLKiNik/${f}?o=Aixk696GQZm2pln_quorSh3KfGvcfG77oAzEp_UvsSx73lFWPTE0fSjytyvMGwe9og&v=1&x=3&a=CAogcnosKvRFwcyZgviPmmhn3UAP74yYuBnKZBeA2a15-A8SexCP3Kyt4y8Yj7mIr-MvIgEAUgTKiNikajA8S-1OhE93QZAH9JGnXNdqQLlLvqABWYX4eS-FfW88vXMo6w0z2i3RpulDjP8XvIVyMF9R-AAP6InBab63caV-BliUZS9qL_Kp22QotfwjmdWJvMxB5RRHg4n2FSMuHKjLPw&e=1641581517&fl=&r=2b6cce91-c98d-44d8-9014-192c3f69d0b6-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OYMpfyXMctnPxejLyiu0SNFQIzc",
+    "notes" : "",
+    "icon_glyph" : 61532,
+    "certificate_expiration" : "Mon, 06 Feb 2023 09:41:55 -0800",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
+    "color" : "#44C85E",
+    "source" : "https://Cutz.Bustl.io/featured/shortcuts/sdrow/sdrow.html",
+    "shortcuts_version" : "1145.8",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/sdrow.html",
+    "link" : "https://www.icloud.com/shortcuts/83cd02f424fc46a3a9b5e58ffd423ebd",
+    "release" : "Sun, 09 Jan 2022 12:28:54 -0800",
+    "file_size" : "4 KB",
+    "integrity" : true,
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/sdrow.png",
+    "start_color" : 4292093695,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Sun, 09 Jan 2022 12:27:07 -0800",
+    "device_id" : "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+    "category" : [
+      "Productivity",
+      "Utilities"
+    ],
+    "input" : "",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Sdrow",
+    "auuid" : "79FC2756-4B83-4468-8584-78E32E8717C1",
+    "version" : "1",
+    "id" : "io.bustl.cutz.featured.sdrow",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AfdDturM0fDz98nXpWePmZf_pyWs/${f}?o=ArzvjGfk10mI5uqLpso36iAWX3VXW7CDqN0bLo0YALvy2zHk818qxuGB1Xrz2pA0fQ&v=1&x=3&a=CAogf7O_FFo0wKu73OLbJR4IBaGXdiSjHou5f5oSjSNFpX0SexDbg5qE5C8Y2-D1heQvIgEAUgT_pyWsajB5_SNXkvb40C5bMJJ8mhmuM3UlAChnofsiBC3HsW2VzsopOL9v_BRpoXtPwMW1n8FyMOKxzLE7IeqSl5ybYUG3-2kCVfqu0ezO2anlMuxr8eXkJ5Sb9tzl4qfy9f3ouU1wFg&e=1641763663&fl=&r=388f9b04-3dfa-486d-8d1c-99f35ba2ce8c-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=vq7QRDGxp7fDCmI_965cgMQ0iXA",
+    "notes" : "",
+    "icon_glyph" : 59832,
+    "certificate_expiration" : "Wed, 08 Feb 2023 12:17:40 -0800",
+    "minimum_version" : 1113,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "description" : "Sdrow Sdrow writes words backwards or backwards words forwards... what ever works or skrow. ---"
+  }
+]
